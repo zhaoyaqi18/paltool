@@ -553,10 +553,11 @@ body {
   .hero-bg { background-image: url('../img/bg/mobile-hero.jpg') !important; }
   .result-section::before { background-image: url('../img/bg/mobile-result.jpg') !important; }
 
-  /* --- Hero (one screen, no scroll) --- */
-  .hero { min-height: auto; padding: 10px 14px 0; }
-  .hero-logo { max-width: 60%; margin: 0 auto; }
-  .hero-subtitle { font-size: 13px; margin-top: 4px; }
+  /* --- Hero (one screen, with breathing room) --- */
+  .hero { min-height: auto; padding: 20px 16px 0; }
+  .hero-content { padding-top: 8px; }
+  .hero-logo { max-width: 55%; margin: 0 auto; }
+  .hero-subtitle { font-size: 13px; margin-top: 6px; letter-spacing: 0.5px; }
   .hero-subtitle span { font-size: inherit; }
   .hero-desc { font-size: 11px; margin: 6px auto 12px; line-height: 1.4; max-width: 100%; }
 
@@ -566,12 +567,12 @@ body {
   .search-box button { padding: 8px 14px; font-size: 11px; }
   .search-icon { display: none; }
 
-  /* --- Feature Cards --- */
-  .feature-cards { grid-template-columns: repeat(2, 1fr); gap: 8px; padding: 0 12px 24px; }
-  .card { padding: 12px 10px; }
-  .card-icon { width: 36px; height: 36px; margin-bottom: 6px; }
-  .card h3 { font-size: 12px; }
-  .card p { font-size: 11px; line-height: 1.4; }
+  /* --- Feature Cards (2x2, compact) --- */
+  .feature-cards { grid-template-columns: 1fr 1fr; gap: 10px; padding: 0 16px 20px; }
+  .card { padding: 14px; border-radius: 12px; }
+  .card-icon { width: 32px; height: 32px; margin-bottom: 6px; }
+  .card h3 { font-size: 12px; margin-bottom: 4px; }
+  .card p { font-size: 11px; line-height: 1.4; opacity: 0.7; }
 
   /* --- Result page (one screen, no scroll) --- */
   .result-section { padding: 0 12px 20px; }
