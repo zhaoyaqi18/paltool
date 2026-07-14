@@ -563,4 +563,31 @@ body {
   .card-icon { width: 44px; height: 44px; margin-bottom: 8px; }
 
   .result-section { padding: 0 16px 40px; }
+
+  /* Tabs - horizontal scroll */
+  .route-tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; gap: 4px; }
+  .route-tabs button { font-size: 11px; padding: 6px 10px; white-space: nowrap; flex-shrink: 0; }
+
+  /* Profile - 2x2 stats grid */
+  .pstat { min-width: 70px; padding: 8px; }
+  .profile-img { max-width: 100px; }
+  .profile-name { font-size: 18px; }
+
+  /* Step cards */
+  .spal img, .spal .pthumb { width: 60px; height: 60px; }
+  .sn { font-size: 14px; }
+  .sop { font-size: 22px; }
+
+  /* Info grid - 2x2 */
+  .info-grid { gap: 8px; }
+  .info-item { padding: 8px 12px; min-width: 70px; }
+  .iv { font-size: 20px; }
+}
+
+@media (max-width: 480px) {
+  .feature-cards { grid-template-columns: 1fr; }
+  .hero-logo { max-width: 260px; }
+  .hero-subtitle { font-size: 14px; }
+  .profile-img { max-width: 80px; }
+  .coffee-btn { font-size: 11px; padding: 4px 10px; }
 }
