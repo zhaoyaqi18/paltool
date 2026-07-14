@@ -544,50 +544,71 @@ body {
 }
 
 @media (max-width: 768px) {
-  .topbar { padding: 10px 16px; }
-  .coffee-btn { padding: 6px 14px; font-size: 12px; }
-  .coffee-btn span { display: none; }
+  /* --- Topbar --- */
+  .topbar { padding: 8px 12px; }
+  .logo { font-size: 16px; }
+  .version { font-size: 10px; display: none; }
 
-  .hero { min-height: auto; padding: 10px 16px 0; }
-  .hero-logo { max-width: 340px; }
-  .hero-subtitle { font-size: 16px; }
-  .hero-desc { font-size: 13px; margin-bottom: 20px; }
+  /* --- Background swap (mobile portrait) --- */
+  .hero { background-image: url('../img/bg/mobile-hero.jpg') !important; background-size: cover; background-position: center top; }
+  .result-section { background-image: url('../img/bg/mobile-result.jpg') !important; background-size: cover; background-position: center top; }
 
-  .search-box { border-radius: 30px; padding: 3px 3px 3px 14px; }
+  /* --- Hero --- */
+  .hero { min-height: auto; padding: 12px 14px 0; }
+  .hero-logo { max-width: 75%; margin: 0 auto; }
+  .hero-subtitle { font-size: 14px; margin-top: 6px; }
+  .hero-subtitle span { font-size: inherit; }
+  .hero-desc { font-size: 12px; margin: 8px auto 16px; line-height: 1.5; max-width: 100%; }
+
+  /* --- Search --- */
+  .search-box { border-radius: 24px; padding: 2px 2px 2px 12px; }
   .search-box input { font-size: 13px; padding: 8px 0; }
-  .search-box button { padding: 8px 16px; font-size: 11px; }
+  .search-box button { padding: 8px 14px; font-size: 11px; }
   .search-icon { display: none; }
 
-  .feature-cards { grid-template-columns: repeat(2, 1fr); gap: 10px; padding: 0 16px 30px; }
-  .card { padding: 16px 12px; }
-  .card-icon { width: 44px; height: 44px; margin-bottom: 8px; }
+  /* --- Feature Cards --- */
+  .feature-cards { grid-template-columns: repeat(2, 1fr); gap: 8px; padding: 0 12px 24px; }
+  .card { padding: 12px 10px; }
+  .card-icon { width: 36px; height: 36px; margin-bottom: 6px; }
+  .card h3 { font-size: 12px; }
+  .card p { font-size: 11px; line-height: 1.4; }
 
-  .result-section { padding: 0 16px 40px; }
+  /* --- Result page --- */
+  .result-section { padding: 0 12px 30px; }
 
-  /* Tabs - horizontal scroll */
-  .route-tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; gap: 4px; }
-  .route-tabs button { font-size: 11px; padding: 6px 10px; white-space: nowrap; flex-shrink: 0; }
+  /* Route tabs - horizontal scroll */
+  .route-tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; gap: 4px; padding: 8px 0; }
+  .route-tabs button { font-size: 11px; padding: 5px 10px; white-space: nowrap; flex-shrink: 0; }
 
-  /* Profile - 2x2 stats grid */
-  .pstat { min-width: 70px; padding: 8px; }
-  .profile-img { max-width: 100px; }
-  .profile-name { font-size: 18px; }
+  /* Profile panel */
+  .profile-img { max-width: 80px; margin: 0 auto; }
+  .profile-name { font-size: 16px; text-align: center; }
+  .profile-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+  .pstat { min-width: 0; padding: 6px; }
+  .psl { font-size: 9px; }
+  .psv { font-size: 16px; }
 
-  /* Step cards */
-  .spal img, .spal .pthumb { width: 60px; height: 60px; }
-  .sn { font-size: 14px; }
-  .sop { font-size: 22px; }
+  /* Breeding step cards */
+  .spal .pthumb { width: 50px; height: 50px; }
+  .sn { font-size: 13px; }
+  .sop { font-size: 20px; }
+  .slist { gap: 8px; }
 
-  /* Info grid - 2x2 */
-  .info-grid { gap: 8px; }
-  .info-item { padding: 8px 12px; min-width: 70px; }
-  .iv { font-size: 20px; }
+  /* Info grid */
+  .info-grid { gap: 6px; }
+  .info-item { padding: 8px 10px; min-width: 60px; }
+  .il { font-size: 10px; }
+  .iv { font-size: 18px; }
+
+  /* Footer */
+  .footer { padding: 16px; font-size: 11px; }
+  .footer-coffee { font-size: 12px; }
 }
 
 @media (max-width: 480px) {
   .feature-cards { grid-template-columns: 1fr; }
-  .hero-logo { max-width: 260px; }
-  .hero-subtitle { font-size: 14px; }
-  .profile-img { max-width: 80px; }
-  .coffee-btn { font-size: 11px; padding: 4px 10px; }
+  .hero-logo { max-width: 80%; }
+  .hero-subtitle { font-size: 13px; }
+  .coffee-btn { font-size: 10px; padding: 4px 8px; }
+  .profile-stats { grid-template-columns: 1fr 1fr; }
 }
