@@ -1,7 +1,9 @@
 /* ===== paltool.cc v0.4.0 — Reverse Breeding Planner ===== */
 
-/* Cross-browser reset */
+/* CSS Reset for cross-browser consistency */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 :root {
   --bg: #0a0e17;
