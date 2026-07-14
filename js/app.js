@@ -105,7 +105,7 @@
     $loader.classList.remove('hidden');
 
     // Show route tabs (moved outside topbar)
-    document.getElementById('route-tabs')?.classList.remove('hidden');
+    document.querySelectorAll('.route-tabs').forEach(el => el.classList.remove('hidden'));
 
     // Small delay to allow browser to repaint
     setTimeout(() => {

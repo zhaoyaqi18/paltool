@@ -138,22 +138,25 @@ const Renderer = (() => {
     return `<div class="sbar"><button id="su-btn">🔗 Copy Link</button></div>`;
   }
   function sw(res, idx) {
-    const el = document.getElementById('route-tabs');
-    if (!el) return;
-    el.innerHTML = res.routes.map((r, i) => {
-      let label = `Route ${i+1}`;
-      if (r.type === 'breed' && r.steps && r.steps.length > 0) {
-        const s = r.steps[0];
-        label = `${s.leftParent ? s.leftParent.name : '?'} + ${s.rightParent ? s.rightParent.name : '?'}`;
-      }
-      return `<button class="${i===idx?'rtab act':'rtab'}" data-r="${i}">${label}</button>`;
-    }).join('');
-    el.querySelectorAll('.rtab').forEach(b => {
-      b.addEventListener('click', () => {
-        if (b.classList.contains('act')) return;
-        el.querySelectorAll('.rtab').forEach(x => x.classList.remove('act'));
-        b.classList.add('act');
-        if (window._lastResult) Renderer.renderRoute(window._lastResult, 'result-container', parseInt(b.dataset.r));
+    document.querySelectorAll('.route-tabs').forEach(el => {
+      el.innerHTML = res.routes.map((r, i) => {
+        let label = `Route ${i+1}`;
+        if (r.type === 'breed' && r.steps && r.steps.length > 0) {
+          const s = r.steps[0];
+          label = `${s.leftParent ? s.leftParent.name : '?'} + ${s.rightParent ? s.rightParent.name : '?'}`;
+        } else if (r.type === 'wild') label = 'Wild Capture';
+        else if (r.type === 'special') label = 'Special Combo';
+        const act = i === idx ? ' act' : '';
+        return `<button class="rtab${act}" data-r="${i}">${label}</button>`;
+      }).join('');
+      el.classList.remove('hidden');
+      el.querySelectorAll('.rtab').forEach(b => {
+        b.addEventListener('click', () => {
+          if (b.classList.contains('act')) return;
+          document.querySelectorAll('.route-tabs .rtab').forEach(x => x.classList.remove('act'));
+          b.classList.add('act');
+          if (window._lastResult) Renderer.renderRoute(window._lastResult, 'result-container', parseInt(b.dataset.r));
+        });
       });
     });
   }
