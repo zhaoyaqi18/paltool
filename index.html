@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" class="notranslate" translate="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google" content="notranslate">
+  <title>PalTool - Reverse Breeding Planner</title>
+  <meta name="description" content="Palworld Reverse Breeding Path Planner. Input your target Pal and get the optimal multi-generation breeding roadmap from wild-catchable parents to perfect offspring.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css?v=111">
+</head>
+<body>
+
+  <!-- ===== Top Bar ===== -->
+  <header class="topbar hidden" id="topbar">
+    <div class="topbar-left">
+      <span class="logo">Pal<span>Tool</span></span>
+      <span class="version">v0.4.0-beta</span>
+    </div>
+    <div id="route-tabs" class="route-tabs"></div>
+    <div class="topbar-right">
+      <a href="https://buymeacoffee.com/paltool" target="_blank" class="coffee-btn" rel="noopener">
+        ☕ Buy Me a Coffee
+      </a>
+    </div>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <img src="img/logo.png" alt="PALWORLD" class="hero-logo">
+      <h2 class="hero-subtitle">REVERSE <span>BREEDING PLANNER</span></h2>
+      <p class="hero-desc">
+        Input a Pal you want to obtain, automatically calculate the shortest breeding path<br>
+        starting from wild-catchable parents. Powered by up-to-date breeding data, supporting 300+ Pals.
+      </p>
+
+      <!-- Search -->
+      <div class="search-section">
+        <div class="search-box">
+          <span class="search-icon">🐾</span>
+          <input type="text" id="search-input" placeholder="Search by Pal name or number..." disabled>
+          <button id="search-btn" disabled>🔍 SEARCH</button>
+        </div>
+        <div id="dropdown" class="dropdown"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Feature Cards ===== -->
+  <section class="feature-cards" id="features">
+    <div class="card">
+      <div class="card-icon"><img src="img/card-lamball.png" alt=""></div>
+      <h3>Know Exactly What to Breed</h3>
+      <p>Input any Pal, get a step-by-step breeding roadmap from wild-catchable parents to your target.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon"><img src="img/card-anubis.png" alt=""></div>
+      <h3>100% Game-Accurate Data</h3>
+      <p>Powered by the official game breed table (44,851+ verified combos). No guesswork, no wrong recipes.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon"><img src="img/card-jetragon.png" alt=""></div>
+      <h3>Save Hours of Trial &amp; Error</h3>
+      <p>No more spreadsheets or wiki-hopping. One search tells you the shortest path and required materials.</p>
+    </div>
+    <div class="card">
+      <div class="card-icon"><img src="img/card-chikipi.png" alt=""></div>
+      <h3>Always Up to Date</h3>
+      <p>Synced with the latest Palworld game data. All new Pals, variants, and special combos included.</p>
+    </div>
+  </section>
+
+  <!-- ===== Loader ===== -->
+  <div id="loader" class="loading hidden">
+    <div class="spinner"></div>
+    <span>Computing breeding routes...</span>
+  </div>
+
+  <!-- ===== Results ===== -->
+  <section id="result-section" class="result-section hidden">
+    <div id="result-container"></div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <p>
+      PalTool.cc &copy; 2026 &mdash;
+      Palworld is &copy; Pocketpair, Inc. &mdash;
+      This is an unofficial fan tool.
+      All game images and data are the property of Pocketpair, Inc.
+      This site is not affiliated with or endorsed by Pocketpair.
+    </p>
+    <p class="footer-contact">
+      Found inaccurate data? <a href="mailto:zhaoyaqi08@gmail.com">Report it here →</a>
+    </p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/particles.js?v=107"></script>
+  <script src="js/data.js?v=107"></script>
+  <script src="js/algorithm.js?v=107"></script>
+  <script src="js/renderer.js?v=107"></script>
+  <script src="js/share.js?v=107"></script>
+  <script src="js/app.js?v=107"></script>
+
+</body>
+</html>

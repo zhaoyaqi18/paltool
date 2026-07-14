@@ -1,0 +1,954 @@
+{
+  "total": 156,
+  "ok": 11,
+  "failed": 145,
+  "results": [
+    {
+      "name": "Anubis",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Anubis.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Arsox",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Arsox.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Astegon",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Astegon.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Azurobe",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Azurobe.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Beakon",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Beakon.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Beegarde",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Beegarde.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Blazamut",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Blazamut.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Blazehowl",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Blazehowl.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Blazehowl Noct",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Blazehowl_Noct.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Bristla",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Bristla.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Broncherry",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Broncherry.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Broncherry Aqua",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Broncherry_Aqua.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Bushi",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Bushi.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Caprity",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Caprity.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Cattiva",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Cattiva.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Cawgnito",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Cawgnito.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Celaray",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Celaray.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Chikipi",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Chikipi.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Chillet",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Chillet.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Chillet Ignis",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Chillet_Ignis.png",
+      "status": "OK",
+      "code": 200,
+      "final_url": "https://palworld.wiki.gg/images/Chillet_Ignis.png?e5b54f"
+    },
+    {
+      "name": "Cinnamoth",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Cinnamoth.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Cremis",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Cremis.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Croajiro",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Croajiro.png",
+      "status": "OK",
+      "code": 200,
+      "final_url": "https://palworld.wiki.gg/images/Croajiro.png?540c17"
+    },
+    {
+      "name": "Cryolinx",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Cryolinx.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Daedream",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Daedream.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Dazemu",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Dazemu.png",
+      "status": "OK",
+      "code": 200,
+      "final_url": "https://palworld.wiki.gg/images/Dazemu.png?a8ddff"
+    },
+    {
+      "name": "Dazzi",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Dazzi.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Depresso",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Depresso.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Digtoise",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Digtoise.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Dinossom",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Dinossom.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Dinossom Lux",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Dinossom_Lux.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Direhowl",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Direhowl.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Dogen",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Dogen.png",
+      "status": "OK",
+      "code": 200,
+      "final_url": "https://palworld.wiki.gg/images/Dogen.png?5edfa2"
+    },
+    {
+      "name": "Dumud",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Dumud.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Eikthyrdeer",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Eikthyrdeer.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Eikthyrdeer Terra",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Eikthyrdeer_Terra.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Elizabee",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Elizabee.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Elphidran",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Elphidran.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Elphidran Aqua",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Elphidran_Aqua.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Faleris",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Faleris.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Felbat",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Felbat.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Fenglope",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Fenglope.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Flambelle",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Flambelle.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Flopie",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Flopie.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Foxcicle",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Foxcicle.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Foxparks",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Foxparks.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Frostallion",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Frostallion.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Frostallion Noct",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Frostallion_Noct.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Fuack",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Fuack.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Fuddler",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Fuddler.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Galeclaw",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Galeclaw.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Gobfin",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Gobfin.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Gobfin Ignis",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Gobfin_Ignis.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Gorirat",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Gorirat.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Gorirat Terra",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Gorirat_Terra.png",
+      "status": "OK",
+      "code": 200,
+      "final_url": "https://palworld.wiki.gg/images/Gorirat_Terra.png?7526ae"
+    },
+    {
+      "name": "Grintale",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Grintale.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Grizzbolt",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Grizzbolt.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Gumoss",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Gumoss.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Hangyu",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Hangyu.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Hangyu Cryst",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Hangyu_Cryst.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Helzephyr",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Helzephyr.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Helzephyr Lux",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Helzephyr_Lux.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Hoocrates",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Hoocrates.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Ice Kingpaca",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Ice_Kingpaca.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Incineram",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Incineram.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Incineram Noct",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Incineram_Noct.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Jetragon",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Jetragon.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Jolthog",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Jolthog.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Jolthog Cryst",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Jolthog_Cryst.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Jormuntide",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Jormuntide.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Jormuntide Ignis",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Jormuntide_Ignis.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Katress",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Katress.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Kelpsea",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Kelpsea.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Kelpsea Ignis",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Kelpsea_Ignis.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Kikit",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Kikit.png",
+      "status": "OK",
+      "code": 200,
+      "final_url": "https://palworld.wiki.gg/images/Kikit.png?18c48a"
+    },
+    {
+      "name": "Killamari",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Killamari.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Kingpaca",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Kingpaca.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Kitsun",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Kitsun.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Knocklem",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Knocklem.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Lamball",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Lamball.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Leezpunk",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Leezpunk.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Leezpunk Ignis",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Leezpunk_Ignis.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Lifmunk",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Lifmunk.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Loupmoon",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Loupmoon.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Lovander",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Lovander.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Lullu",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Lullu.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Lunaris",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Lunaris.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Lyleen",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Lyleen.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Lyleen Noct",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Lyleen_Noct.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Mammorest",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Mammorest.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Mammorest Cryst",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Mammorest_Cryst.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Maraith",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Maraith.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Mau",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Mau.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Mau Cryst",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Mau_Cryst.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Melpaca",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Melpaca.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Menasting",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Menasting.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Mimog",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Mimog.png",
+      "status": "OK",
+      "code": 200,
+      "final_url": "https://palworld.wiki.gg/images/Mimog.png?3dc4ee"
+    },
+    {
+      "name": "Mossanda",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Mossanda.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Mossanda Lux",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Mossanda_Lux.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Mozzarina",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Mozzarina.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Necromus",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Necromus.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Nitewing",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Nitewing.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Nox",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Nox.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Orserk",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Orserk.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Paladius",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Paladius.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Pengullet",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Pengullet.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Penking",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Penking.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Petallia",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Petallia.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Prunelia",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Prunelia.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Pyrin",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Pyrin.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Pyrin Noct",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Pyrin_Noct.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Quivern",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Quivern.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Ragnahawk",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Ragnahawk.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Rayhound",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Rayhound.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Reindrix",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Reindrix.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Relaxaurus",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Relaxaurus.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Relaxaurus Lux",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Relaxaurus_Lux.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Reptyro",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Reptyro.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Reptyro Cryst",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Reptyro_Cryst.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Ribunny",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Ribunny.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Robinquill",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Robinquill.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Robinquill Terra",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Robinquill_Terra.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Rooby",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Rooby.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Rushoar",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Rushoar.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Selyne",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Selyne.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Shadowbeak",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Shadowbeak.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Shroomer",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Shroomer.png",
+      "status": "OK",
+      "code": 200,
+      "final_url": "https://palworld.wiki.gg/images/Shroomer.png?19acaf"
+    },
+    {
+      "name": "Shroomer Noct",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Shroomer_Noct.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Sibelyx",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Sibelyx.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Sootseer",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Sootseer.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Sparkit",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Sparkit.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Surfent",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Surfent.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Surfent Terra",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Surfent_Terra.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Suzaku",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Suzaku.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Suzaku Aqua",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Suzaku_Aqua.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Swee",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Swee.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Sweepa",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Sweepa.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Tanzee",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Tanzee.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Tarantriss",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Tarantriss.png",
+      "status": "HTTP_404",
+      "code": 404
+    },
+    {
+      "name": "Teafant",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Teafant.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Tocotoco",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Tocotoco.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Tombat",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Tombat.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Univolt",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Univolt.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Vaelet",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Vaelet.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Vanwyrm",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Vanwyrm.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Vanwyrm Cryst",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Vanwyrm_Cryst.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Verdash",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Verdash.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Vixy",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Vixy.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Warsect",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Warsect.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Wixen",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Wixen.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Woolipop",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Woolipop.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Wumpo",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Wumpo.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Wumpo Botan",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Wumpo_Botan.png",
+      "status": "HTTP_429",
+      "code": 429
+    },
+    {
+      "name": "Xenogard",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Xenogard.png",
+      "status": "OK",
+      "code": 200,
+      "final_url": "https://palworld.wiki.gg/images/Xenogard.png?972c21"
+    },
+    {
+      "name": "Xenovader",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Xenovader.png",
+      "status": "OK",
+      "code": 200,
+      "final_url": "https://palworld.wiki.gg/images/Xenovader.png?46104f"
+    },
+    {
+      "name": "Yakumo",
+      "url": "https://palworld.wiki.gg/wiki/Special:FilePath/Yakumo.png",
+      "status": "OK",
+      "code": 200,
+      "final_url": "https://palworld.wiki.gg/images/Yakumo.png?27ec6d"
+    }
+  ]
+}
