@@ -554,9 +554,9 @@ body {
   .hero-bg { background: url('../img/bg/mobile-hero.jpg') center top / cover no-repeat !important; }
   .result-section::before { background: url('../img/bg/mobile-result.jpg') center top / cover no-repeat !important; }
 
-  /* --- Hero (compact) --- */
-  .hero { min-height: auto; padding: 16px 14px 0; }
-  .hero-content { padding-top: 4px; }
+  /* --- Hero (push down for breathing room) --- */
+  .hero { min-height: auto; padding: 40px 14px 0; }
+  .hero-content { padding-top: 8px; }
   .hero-logo { max-width: 45%; margin: 0 auto; }
   .hero-subtitle { font-size: 11px; margin-top: 4px; letter-spacing: 0.3px; }
   .hero-subtitle span { font-size: inherit; }
