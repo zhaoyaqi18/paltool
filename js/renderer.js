@@ -35,33 +35,41 @@ const Renderer = (() => {
     return `<div class="rbar"><div class="rbar-l"><span class="rbar-lbl">Breeding</span><strong>${t ? t.name : ''}</strong></div><div class="rbar-r"><button id="bk-btn" class="bk-btn">← Back</button><button id="su-btn" class="bk-btn" title="Copy share link">🔗</button></div></div>`;
   }
 
-  /* ===== Left: Pal Profile ===== */
+  /* ===== Profile Card ===== */
   function profile(t, r) {
     if (!t) return '';
     const n = r.type === 'wild' ? 0 : r.type === 'special' ? 1 : (r.steps ? r.steps.length : 0);
     const tp = r.type === 'wild' ? 'Wild Capture' : r.type === 'special' ? 'Special Combo' : 'Breeding';
     const diff = n <= 1 ? 'Easy' : n <= 3 ? 'Medium' : 'Hard';
-    // Work data
     const works = t.work || {};
     const workList = Object.keys(works).length ? Object.entries(works).map(([k,v]) => `${k} Lv${v}`).join(', ') : '';
-    // Egg
     const egg = t.egg || '';
     const food = t.food || 7;
     return `
       <div class="profile">
-        <div class="profile-img">${pimg(t, 120)}</div>
-        <div class="profile-tags">${PalData.elementBadgeHTML(t)}</div>
-        <div class="profile-name">#${t.dex} ${t.name}</div>
-        <div class="profile-bp">BP: ${t.bp}</div>
-        <div class="profile-stats">
-          <div class="pstat"><span class="psl">Steps</span><span class="psv">${n}</span></div>
-          <div class="pstat"><span class="psl">Egg</span><span class="psv" style="font-size:11px">${egg}</span></div>
-          <div class="pstat"><span class="psl">Food</span><span class="psv">${food}</span></div>
-          <div class="pstat"><span class="psl">Difficulty</span><span class="psv ${diff.toLowerCase()}">${diff}</span></div>
+        <div class="profile-card">
+          <div class="profile-main">
+            <div class="profile-left">
+              <div class="profile-img">${pimg(t, 120)}</div>
+              <div class="profile-tags">${PalData.elementBadgeHTML(t)}</div>
+              <div class="profile-name">#${t.dex} ${t.name}</div>
+              <div class="profile-bp">BP: ${t.bp}</div>
+            </div>
+            <div class="profile-right">
+              <div class="profile-stats-panel">
+                <div class="pstat"><span class="psl">STEPS</span><span class="psv">${n}</span></div>
+                <div class="pstat"><span class="psl">EGG</span><span class="psv">${egg}</span></div>
+                <div class="pstat"><span class="psl">FOOD</span><span class="psv">${food}</span></div>
+                <div class="pstat"><span class="psl">DIFFICULTY</span><span class="psv ${diff.toLowerCase()}">${diff}</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="profile-footer">
+            ${workList ? `<div class="profile-works">🔧 ${workList}</div>` : ''}
+            ${t.isWild ? '<div class="profile-wild">✅ Found in the wild</div>' : ''}
+            <div class="profile-tip">Each egg needs 1 Cake. ~10 eggs per step for desired passives.</div>
+          </div>
         </div>
-        ${workList ? `<div class="profile-works">🔧 ${workList}</div>` : ''}
-        ${t.isWild ? '<div class="profile-wild">✅ Found in the wild</div>' : ''}
-        <div class="profile-tip">Each egg needs 1 Cake.<br>~10 eggs per step for desired passives.</div>
       </div>`;
   }
 
