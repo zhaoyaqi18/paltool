@@ -1,4 +1,7 @@
-/* ===== paltool.cc v0.3.0 — Reverse Breeding Planner ===== */
+/* ===== paltool.cc v0.4.0 — Reverse Breeding Planner ===== */
+
+/* Cross-browser reset */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
   --bg: #0a0e17;
@@ -555,8 +558,8 @@ body {
   .result-section::before { background: url('../img/bg/mobile-result.jpg') center top / cover no-repeat !important; }
 
   /* --- Hero (push down for breathing room) --- */
-  .hero { min-height: auto; padding: 40px 14px 0; }
-  .hero-content { padding-top: 8px; }
+    .hero { min-height: auto; padding: 80px 14px 0; }
+    .hero-content { padding-top: 12px; }
   .hero-logo { max-width: 45%; margin: 0 auto; }
   .hero-subtitle { font-size: 11px; margin-top: 4px; letter-spacing: 0.3px; }
   .hero-subtitle span { font-size: inherit; }
