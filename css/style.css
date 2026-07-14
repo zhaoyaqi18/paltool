@@ -550,15 +550,15 @@ body {
   .version { font-size: 10px; display: none; }
 
   /* --- Background swap (mobile portrait) --- */
-  .hero { background-image: url('../img/bg/mobile-hero.jpg') !important; background-size: cover; background-position: center top; }
-  .result-section { background-image: url('../img/bg/mobile-result.jpg') !important; background-size: cover; background-position: center top; }
+  .hero-bg { background-image: url('../img/bg/mobile-hero.jpg') !important; }
+  .result-section::before { background-image: url('../img/bg/mobile-result.jpg') !important; }
 
-  /* --- Hero --- */
-  .hero { min-height: auto; padding: 12px 14px 0; }
-  .hero-logo { max-width: 75%; margin: 0 auto; }
-  .hero-subtitle { font-size: 14px; margin-top: 6px; }
+  /* --- Hero (one screen, no scroll) --- */
+  .hero { min-height: auto; padding: 10px 14px 0; }
+  .hero-logo { max-width: 60%; margin: 0 auto; }
+  .hero-subtitle { font-size: 13px; margin-top: 4px; }
   .hero-subtitle span { font-size: inherit; }
-  .hero-desc { font-size: 12px; margin: 8px auto 16px; line-height: 1.5; max-width: 100%; }
+  .hero-desc { font-size: 11px; margin: 6px auto 12px; line-height: 1.4; max-width: 100%; }
 
   /* --- Search --- */
   .search-box { border-radius: 24px; padding: 2px 2px 2px 12px; }
@@ -573,9 +573,9 @@ body {
   .card h3 { font-size: 12px; }
   .card p { font-size: 11px; line-height: 1.4; }
 
-  /* --- Result page --- */
-  .result-section { padding: 0 12px 30px; }
-
+  /* --- Result page (one screen, no scroll) --- */
+  .result-section { padding: 0 12px 20px; }
+  .profile-img { max-width: 70px; margin: 0 auto; }
   /* Route tabs - horizontal scroll */
   .route-tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; gap: 4px; padding: 8px 0; }
   .route-tabs button { font-size: 11px; padding: 5px 10px; white-space: nowrap; flex-shrink: 0; }
