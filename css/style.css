@@ -550,8 +550,8 @@ body {
   .version { font-size: 10px; display: none; }
 
   /* --- Background swap (mobile portrait) --- */
-  .hero-bg { background-image: url('../img/bg/mobile-hero.jpg') !important; }
-  .result-section::before { background-image: url('../img/bg/mobile-result.jpg') !important; }
+  .hero-bg { background: url('../img/bg/mobile-hero.jpg') center top / cover no-repeat !important; }
+  .result-section::before { background: url('../img/bg/mobile-result.jpg') center top / cover no-repeat !important; }
 
   /* --- Hero (one screen, with breathing room) --- */
   .hero { min-height: auto; padding: 20px 16px 0; }
