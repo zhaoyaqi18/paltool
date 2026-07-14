@@ -548,7 +548,7 @@ body {
 
 @media (max-width: 768px) {
   /* --- Topbar --- */
-  .topbar { padding: 6px 12px; }
+  .topbar { padding: 6px 16px; height: auto; min-height: 36px; }
   .logo { font-size: 14px; }
   .version { display: none; }
   .coffee-btn { font-size: 10px; padding: 4px 10px; }
@@ -557,9 +557,9 @@ body {
   .hero-bg { background: url('../img/bg/mobile-hero.jpg') center top / cover no-repeat !important; }
   .result-section::before { background: url('../img/bg/mobile-result.jpg') center top / cover no-repeat !important; }
 
-  /* --- Hero (push down for breathing room) --- */
-    .hero { min-height: auto; padding: 120px 14px 0; }
-    .hero-content { padding-top: 12px; }
+  /* --- Hero --- */
+  .hero { min-height: auto; padding: 76px 14px 0; }
+  .hero-content { padding-top: 12px; }
   .hero-logo { max-width: 95%; margin: 0 auto; }
   .hero-subtitle { font-size: 11px; margin-top: 4px; letter-spacing: 0.3px; }
   .hero-subtitle span { font-size: inherit; }
@@ -579,13 +579,17 @@ body {
   .card p { font-size: 9px; line-height: 1.3; opacity: 0.65; }
 
   /* --- Result page --- */
-  .result-section { padding: 0 10px 16px; }
-  .route-tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; gap: 3px; padding: 6px 0; }
-  .route-tabs button { font-size: 10px; padding: 4px 8px; white-space: nowrap; flex-shrink: 0; }
+  .result-section { padding: 40px 16px 16px; }
+  .rbar { display: none; }
+  .rcols { gap: 8px; }
+  .rcol-l { flex: none; width: 100%; position: static; }
+  .rcol-r { flex: none; width: 100%; display: flex; flex-direction: column; gap: 8px; }
+  .route-tabs { display: flex; flex-wrap: wrap; gap: 3px; padding: 4px 0; overflow: visible; }
+  .route-tabs button { font-size: 10px; padding: 4px 8px; white-space: nowrap; }
 
   /* Profile card - match reference layout */
   .profile { background: transparent; border: none; padding: 0; gap: 0; }
-  .profile-card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; padding: 10px; }
+  .profile-card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.06); border-radius: 8px; padding: 10px; width: 100%; }
   .profile-main { display: flex; flex-direction: row; gap: 10px; }
   .profile-left { display: flex; flex-direction: column; align-items: center; gap: 4px; width: 90px; flex-shrink: 0; }
   .profile-right { flex: 1; min-width: 0; }
@@ -606,17 +610,27 @@ body {
   .profile-works { font-size: 9px; color: rgba(255,255,255,0.4); }
   .profile-tip { font-size: 8px; color: rgba(255,255,255,0.3); margin-top: 2px; }
 
-  /* Breeding step cards */
-  .spal .pthumb { width: 40px; height: 40px; }
-  .sn { font-size: 11px; }
-  .sop { font-size: 16px; }
-  .slist { gap: 6px; }
+  /* Breeding step cards - compact horizontal */
+  .slist { gap: 4px; }
+  .scard { padding: 4px 6px; border-radius: 6px; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.06); width: 100%; }
+  .srow { display: flex; align-items: center; gap: 1px; }
+  .spal { display: flex; flex-direction: column; align-items: center; gap: 1px; padding: 2px; flex: 1; min-width: 0; }
+  .spal .pthumb { width: 28px; height: 28px; min-width: 28px; }
+  .sn { font-size: 7px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+  .stags { display: none; }
+  .sop { font-size: 10px; padding: 0 1px; color: rgba(255,255,255,0.3); flex-shrink: 0; }
+  .splus { display: none; }
+  .sbp { font-size: 6px; padding: 1px 0 0; color: rgba(255,255,255,0.2); }
+  .st { font-size: 6px; padding: 0 3px; }
+  .spars { gap: 4px; justify-content: center; }
+  .spars .spal .pthumb { width: 28px; height: 28px; }
 
-  /* Info grid */
+  /* Info grid - compact */
   .info-grid { gap: 4px; }
+  .info { min-height: auto; padding: 8px 10px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); width: 100%; }
   .info-item { padding: 6px 8px; min-width: 50px; }
   .il { font-size: 8px; }
-  .iv { font-size: 14px; }
+  .iv { font-size: 12px; }
 
   /* Footer */
   .footer { padding: 12px; font-size: 9px; }
