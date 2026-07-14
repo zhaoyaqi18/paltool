@@ -104,6 +104,9 @@
     $resultContainer.innerHTML = '';
     $loader.classList.remove('hidden');
 
+    // Show route tabs (moved outside topbar)
+    document.getElementById('route-tabs')?.classList.remove('hidden');
+
     // Small delay to allow browser to repaint
     setTimeout(() => {
       const result = Breeder.findRoutes(palId);
@@ -158,6 +161,9 @@
     $resultContainer.innerHTML = '';
     Share.clearHash();
     document.getElementById('topbar')?.classList.add('hidden');
+    // Hide route tabs
+    document.getElementById('route-tabs')?.classList.add('hidden');
+    document.getElementById('route-tabs')?.classList.remove('act');
     // Clear topbar route tabs
     const rt = document.getElementById('route-tabs');
     if (rt) rt.innerHTML = '';
