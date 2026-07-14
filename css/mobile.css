@@ -550,8 +550,10 @@ body {
 
 @media (max-width: 768px) {
   /* --- Topbar --- */
-  .topbar { padding: 6px 16px; height: auto; min-height: 36px; }
+  .topbar { padding: 6px 16px; height: auto; min-height: 36px; flex-wrap: wrap; }
   .logo { font-size: 14px; }
+  .route-tabs { width: 100%; order: 3; padding: 4px 0 0; justify-content: flex-start; }
+  .route-tabs button { font-size: 10px; padding: 4px 8px; white-space: nowrap; }
   .version { display: none; }
   .coffee-btn { font-size: 10px; padding: 4px 10px; }
 
@@ -586,7 +588,6 @@ body {
   .rcols { gap: 8px; }
   .rcol-l { flex: none; width: 100%; position: static; }
   .rcol-r { flex: none; width: 100%; display: flex; flex-direction: column; gap: 8px; }
-  .route-tabs { display: flex; flex-wrap: wrap; gap: 3px; padding: 4px 0; overflow: visible; }
   .route-tabs button { font-size: 10px; padding: 4px 8px; white-space: nowrap; }
 
   /* Profile card - match reference layout */
