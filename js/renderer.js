@@ -22,17 +22,16 @@ const Renderer = (() => {
     h += topBar(t);
     document.getElementById('topbar')?.classList.remove('hidden');
     if (result.routes.length > 1) { window._lastResult = result; sw(result, ri); }
-    // Two-column layout
     h += '<div class="rcols">';
     h += '<div class="rcol-l">' + profile(t, r) + '</div>';
-    h += '<div class="rcol-r">' + (ri === 0 && r.type === 'breed' ? bestBanner(r) : '') + steps(r) + infoSection(r) + '</div>';
+    h += '<div class="rcol-r">' + (ri === 0 && r.type === 'breed' ? bestBanner(r) : '') + steps(r) + infoSection(r) + passivesSection(t) + '</div>';
     h += '</div>';
     c.innerHTML = h;
     bindActs();
   }
 
   function topBar(t) {
-    return `<div class="rbar"><div class="rbar-l"><span class="rbar-lbl">Breeding</span><strong>${t ? t.name : ''}</strong></div><div class="rbar-r"><button id="bk-btn" class="bk-btn">← Back</button><button id="su-btn" class="bk-btn" title="Copy share link">🔗</button></div></div>`;
+    return `<div class="rbar"><div class="rbar-l"><span class="rbar-lbl">Breeding</span><strong>${t ? t.name : ''}</strong></div><div class="rbar-r"><button id="bk-btn" class="bk-btn">← Back</button><button id="card-btn" class="bk-btn" title="Download share card">📷</button><button id="su-btn" class="bk-btn" title="Copy share link">🔗</button></div></div>`;
   }
 
   /* ===== Profile Card ===== */
@@ -45,6 +44,7 @@ const Renderer = (() => {
     const workList = Object.keys(works).length ? Object.entries(works).map(([k,v]) => `${k} Lv${v}`).join(', ') : '';
     const egg = t.egg || '';
     const food = t.food || 7;
+    const inBox = Collection.has(t.id);
     return `
       <div class="profile">
         <div class="profile-card">
@@ -68,6 +68,7 @@ const Renderer = (() => {
             ${workList ? `<div class="profile-works">🔧 ${workList}</div>` : ''}
             ${t.isWild ? '<div class="profile-wild">✅ Found in the wild</div>' : ''}
             <div class="profile-tip">Each egg needs 1 Cake. ~10 eggs per step for desired passives.</div>
+            <button class="addbox-btn" onclick="window.addToCollection('${t.id}');this.textContent='✅ In Box';this.classList.add('inbox')" ${inBox ? 'disabled style="opacity:0.5;cursor:default"' : ''}>${inBox ? '✅ In Box' : '📦 Add to Box'}</button>
           </div>
         </div>
       </div>`;
@@ -133,6 +134,31 @@ const Renderer = (() => {
     return h;
   }
 
+  /* ===== Passives Section ===== */
+  function passivesSection(t) {
+    if (!t || !window._passives) return '';
+    const el = t.element || 'neutral';
+    const bps = window._passives || [];
+
+    // Recommend based on element + generic combat/worker
+    const combat = bps.filter(p => p.type === 'combat').slice(0, 6);
+    const worker = bps.filter(p => p.type === 'worker').slice(0, 4);
+    const elem = bps.filter(p => p.type === 'element' && p.id.includes(el.substring(0,4))).slice(0, 2);
+    const all = [...combat.slice(0, 4), ...elem, ...worker.slice(0, 2)].slice(0, 8);
+
+    if (all.length === 0) return '';
+
+    let h = '<div class="passives-section"><h4>🎯 Recommended Passives</h4><div class="passives-grid">';
+    for (const p of all) {
+      const rcls = 'rarity-' + (p.rarity || 'uncommon');
+      h += `<span class="passive-tag ${rcls}" title="${p.effect}">${p.name}</span>`;
+    }
+    h += '</div>';
+    h += '<p class="passives-hint">Parent passives can be inherited by offspring. Breed parents with desired passives to pass them down.</p>';
+    h += '</div>';
+    return h;
+  }
+
   /* ===== Best Route Banner ===== */
   function bestBanner(r) {
     if (!r.steps || r.steps.length === 0) return '';
@@ -175,6 +201,9 @@ const Renderer = (() => {
       navigator.clipboard.writeText(Share.getShareURL()).then(() => { ub.textContent = '✅ Copied!'; setTimeout(() => { ub.textContent = '🔗 Copy Link'; }, 2000); });
     });
     document.getElementById('bk-btn')?.addEventListener('click', () => history.back());
+    document.getElementById('card-btn')?.addEventListener('click', () => {
+      if (window._lastResult) Share.generateCard(window._lastResult);
+    });
   }
 
   function renderDropdown(pals, inputEl, containerEl, onSelect) {
@@ -187,5 +216,34 @@ const Renderer = (() => {
     });
   }
 
-  return { renderRoute, renderTreeSVG: () => {}, renderDropdown };
+  /* ===== Collection Panel ===== */
+  function renderCollection() {
+    const pals = Collection.getAll();
+    const canBreed = Collection.whatCanIBreed();
+    let h = '<div class="collection-overlay" onclick="this.remove()"><div class="collection-panel" onclick="event.stopPropagation()">';
+    h += '<h3>📦 My Pal Box</h3>';
+    if (pals.length === 0) {
+      h += '<p class="collection-empty">No pals collected yet. Search a pal and click "Add to Box".</p>';
+    } else {
+      h += '<div class="collection-grid">';
+      for (const pid of pals) {
+        const p = PalData.getById(pid);
+        if (!p) continue;
+        h += `<div class="collection-item"><div class="collection-img">${pimg(p, 52)}</div><div class="collection-name">${p.name}</div><button class="collection-rm" onclick="Collection.remove('${pid}');window.updateMyBox();this.closest('.collection-item').remove()">✕</button></div>`;
+      }
+      h += '</div>';
+    }
+    if (canBreed.length > 0) {
+      h += '<h4 style="margin-top:16px">🧬 You Can Breed:</h4><div class="collection-grid">';
+      for (const {pal, left, right} of canBreed.slice(0, 12)) {
+        h += `<div class="collection-item breedable" onclick="window.location.hash='q=${pal.id}'" title="${left.name} + ${right.name}">${pimg(pal, 44)}<div class="collection-name">${pal.name}</div></div>`;
+      }
+      h += '</div>';
+    }
+    h += '<button class="collection-close" onclick="this.closest(\'.collection-overlay\').remove()">Close</button>';
+    h += '</div></div>';
+    document.body.insertAdjacentHTML('beforeend', h);
+  }
+
+  return { renderRoute, renderTreeSVG: () => {}, renderDropdown, renderCollection };
 })();

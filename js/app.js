@@ -21,8 +21,17 @@
   try {
     await PalData.load();
     await Breeder.load();
+    Collection.load();
+    // Load passives
+    try {
+      const pr = await fetch('passives.json');
+      window._passives = await pr.json();
+    } catch(e) { window._passives = []; }
     state.loaded = true;
     console.log(`Loaded ${PalData.getTotal()} pals, ${Breeder.isLoaded() ? 'breed data ready' : 'breed data failed'}.`);
+
+    // Show My Box button
+    updateMyBox();
   } catch (e) {
     console.error('Data load failed:', e);
     $welcome.innerHTML = `<div class="error-banner" style="margin:40px auto;max-width:600px;text-align:center;padding:20px;">
@@ -178,6 +187,24 @@
 
   // Expose for renderer button binding
   window.resetSearchFn = resetSearch;
+
+  // --- My Box ---
+  function updateMyBox() {
+    const btn = document.getElementById('mybox-btn');
+    const cnt = document.getElementById('mybox-count');
+    if (!btn || !cnt) return;
+    const n = Collection.count();
+    cnt.textContent = n;
+    btn.classList.toggle('hidden', n === 0 && !state.currentResult);
+  }
+  window.updateMyBox = updateMyBox;
+  window.addToCollection = function(palId) {
+    if (Collection.add(palId)) updateMyBox();
+  };
+
+  document.getElementById('mybox-btn')?.addEventListener('click', () => {
+    Renderer.renderCollection();
+  });
 
   Share.onHashChange((parsed) => {
     if (parsed.q) {
