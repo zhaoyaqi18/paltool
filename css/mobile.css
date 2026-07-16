@@ -432,6 +432,19 @@ body {
   flex: 1; min-width: 90px; text-align: center;
 }
 .il { font-size: 11px; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 0.5px; }
+
+/* Best route banner */
+.best-banner {
+  background: linear-gradient(135deg, rgba(59,130,246,0.15), rgba(168,85,247,0.1));
+  border: 1px solid rgba(59,130,246,0.3);
+  border-radius: var(--radius-sm);
+  padding: 10px 16px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #93c5fd;
+  text-align: center;
+}
 .iv { font-size: 24px; font-weight: 700; color: #fff; }
 
 /* Share */

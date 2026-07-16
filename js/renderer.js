@@ -25,7 +25,7 @@ const Renderer = (() => {
     // Two-column layout
     h += '<div class="rcols">';
     h += '<div class="rcol-l">' + profile(t, r) + '</div>';
-    h += '<div class="rcol-r">' + steps(r) + infoSection(r) + '</div>';
+    h += '<div class="rcol-r">' + (ri === 0 && r.type === 'breed' ? bestBanner(r) : '') + steps(r) + infoSection(r) + '</div>';
     h += '</div>';
     c.innerHTML = h;
     bindActs();
@@ -133,6 +133,14 @@ const Renderer = (() => {
     return h;
   }
 
+  /* ===== Best Route Banner ===== */
+  function bestBanner(r) {
+    if (!r.steps || r.steps.length === 0) return '';
+    let wild = 0;
+    r.steps.forEach(s => { if (s.leftIsWild) wild++; if (s.rightIsWild) wild++; });
+    return `<div class="best-banner">⭐ Best Route — ${r.steps.length} generation${r.steps.length>1?'s':''}, ${wild} wild catch${wild>1?'es':''} needed</div>`;
+  }
+
   /* ===== Share & Tabs ===== */
   function share() {
     return `<div class="sbar"><button id="su-btn">🔗 Copy Link</button></div>`;
@@ -147,7 +155,8 @@ const Renderer = (() => {
         } else if (r.type === 'wild') label = 'Wild Capture';
         else if (r.type === 'special') label = 'Special Combo';
         const act = i === idx ? ' act' : '';
-        return `<button class="rtab${act}" data-r="${i}">${label}</button>`;
+        const best = (i === 0 && r.type === 'breed') ? '⭐ ' : '';
+        return `<button class="rtab${act}" data-r="${i}">${best}${label}</button>`;
       }).join('');
       el.classList.remove('hidden');
       el.querySelectorAll('.rtab').forEach(b => {

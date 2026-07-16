@@ -10,7 +10,6 @@ const Breeder = (() => {
 
   const SPECIAL_BREEDS = {
     orserk: { parents: ['grizzbolt', 'relaxaurus'], note: 'Grizzbolt + Relaxaurus = Orserk' },
-    frostallion_noct: { parents: ['frostallion', 'helzephyr'], note: 'Frostallion + Helzephyr = Frostallion Noct' },
   };
 
   async function load() {
@@ -76,7 +75,10 @@ const Breeder = (() => {
       if (depth > 0 && target.isWild) return { bp, palId: targetId, leafWild: true };
       if (depth >= maxDepth) return null;
 
-      const parentPairs = breedData.r[targetId] || [];
+      const parentPairs = (breedData.r[targetId] || []).filter(([a, b]) => {
+        // Filter out self-breeding: parent1==parent2==target
+        return !(a === targetId && b === targetId);
+      });
       let best = null;
 
       for (const [aId, bId] of parentPairs) {
@@ -110,7 +112,16 @@ const Breeder = (() => {
       const k = tkey(t);
       if (!seen.has(k)) { seen.add(k); uniq.push(t); }
     }
-    uniq.sort((a, b) => tdepth(a) - tdepth(b));
+    // Calculate total leaf BP for sorting (lower = easier parents)
+    function tleafBP(t) {
+      if (!t.left && !t.right) return t.bp;
+      return tleafBP(t.left) + tleafBP(t.right);
+    }
+    uniq.sort((a, b) => {
+      const dDiff = tdepth(a) - tdepth(b);
+      if (dDiff !== 0) return dDiff;           // Fewer generations first
+      return tleafBP(a) - tleafBP(b);           // Easier parents first
+    });
 
     // Filter out routes that use the target as a parent (circular)
     function hasTargetAsLeaf(node, targetId) {

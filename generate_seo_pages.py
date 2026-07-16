@@ -25,14 +25,14 @@ for key in '0123456789abcdef':
 bp_map = {p['id']: p['bp'] for p in pals}
 
 def page_title(pal):
-    return f"{pal['name']} - Palworld Reverse Breeding Planner | paltool.cc"
+    return f"How to Breed {pal['name']} in Palworld — Best Combinations | PalTool"
 
 def meta_desc(pal):
     name = pal['name']
     bp = pal.get('bp', '?')
     egg = pal.get('egg', 'Unknown Egg')
     element = pal.get('element', '?').title()
-    return f"See how to breed {name} in Palworld. BP={bp}, {element} type, {egg}. Step-by-step reverse breeding roadmap from wild-catchable parents. 44k+ game-accurate recipes."
+    return f"Learn how to breed {name} in Palworld. Find the fastest breeding path, best parent combos, and step-by-step roadmap. {element} type, BP={bp}, {egg}. 44,551 verified game-accurate recipes."
 
 def pal_to_url(pal):
     return f"https://paltool.cc/pals/{pal['id']}/"
@@ -85,17 +85,20 @@ def gen_page(pal):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{page_title(pal)}</title>
   <meta name="description" content="{meta_desc(pal)}">
-  <link rel="canonical" href="https://paltool.cc/">
+  <link rel="canonical" href="{pal_to_url(pal)}">
   <link rel="stylesheet" href="../../css/mobile.css">
   <script type="application/ld+json">
   {{
     "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "PalTool - Reverse Breeding Planner",
-    "url": "https://paltool.cc/",
-    "description": "Palworld reverse breeding path planner. Enter any Pal to get the optimal multi-generation breeding roadmap from wild-catchable parents to perfect offspring.",
-    "applicationCategory": "GameApplication",
-    "operatingSystem": "Web"
+    "@type": "WebPage",
+    "name": "{page_title(pal)}",
+    "description": "{meta_desc(pal)}",
+    "url": "{pal_to_url(pal)}",
+    "isPartOf": {{
+      "@type": "WebSite",
+      "name": "PalTool - Palworld Breeding Calculator",
+      "url": "https://paltool.cc/"
+    }}
   }}
   </script>
 </head>
@@ -163,6 +166,7 @@ def gen_page(pal):
   <script src="../../js/data.js"></script>
   <script src="../../js/algorithm.js"></script>
   <script src="../../js/renderer.js"></script>
+  <script src="../../js/share.js"></script>
   <script src="../../js/app.js"></script>
 </body>
 </html>'''
