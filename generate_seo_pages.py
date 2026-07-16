@@ -163,11 +163,11 @@ def gen_page(pal):
       }}, 300);
     }});
   </script>
-  <script src="../../js/data.js"></script>
-  <script src="../../js/algorithm.js"></script>
-  <script src="../../js/renderer.js"></script>
-  <script src="../../js/share.js"></script>
-  <script src="../../js/app.js"></script>
+  <script src="../../js/data.js?v=200"></script>
+  <script src="../../js/algorithm.js?v=200"></script>
+  <script src="../../js/renderer.js?v=200"></script>
+  <script src="../../js/share.js?v=200"></script>
+  <script src="../../js/app.js?v=200"></script>
 </body>
 </html>'''
     return html
