@@ -827,25 +827,6 @@
     "egg": "Common Egg"
   },
   {
-    "id": "ribunny",
-    "dex": 44,
-    "name": "Ribbuny",
-    "bp": 1310,
-    "element": "neutral",
-    "isWild": true,
-    "isAlpha": false,
-    "passives": [],
-    "passiveSource": "breed_only",
-    "image": "img/pals/ribunny.png",
-    "work": {
-      "Handiwork": 1,
-      "Gathering": 1,
-      "Transporting": 1
-    },
-    "food": 7,
-    "egg": "Common Egg"
-  },
-  {
     "id": "incineram",
     "dex": 91,
     "name": "Incineram",
@@ -1836,24 +1817,6 @@
     },
     "food": 7,
     "egg": "Common Egg"
-  },
-  {
-    "id": "kingpaca_cryst",
-    "dex": 98,
-    "name": "Ice Kingpaca",
-    "bp": 1530,
-    "element": "ice",
-    "isWild": true,
-    "isAlpha": false,
-    "passives": [],
-    "passiveSource": "breed_only",
-    "image": "img/pals/kingpaca_cryst.png",
-    "work": {
-      "Gathering": 2,
-      "Cooling": 4
-    },
-    "food": 7,
-    "egg": "Frozen Egg"
   },
   {
     "id": "mammorest",

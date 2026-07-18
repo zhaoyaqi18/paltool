@@ -130,7 +130,7 @@ def gen_ranking_page(work_key):
       <h2 class="hero-subtitle">Palworld 1.0 Rankings</h2>
       <h1 class="hero-logo">Pal<span>Tool</span></h1>
       <p class="hero-tagline">{emoji} Best {label} Pals</p>
-      <p class="hero-hint">✅ Updated for Palworld 1.0 · 301 Pals · 44,552 Recipes</p>
+      <p class="hero-hint">✅ Updated for Palworld 1.0 · 299 Pals · 44,552 Recipes</p>
     </div>
   </div>
 
@@ -232,7 +232,7 @@ def gen_element_page(el):
       <h2 class="hero-subtitle">Palworld 1.0 Paldeck</h2>
       <h1 class="hero-logo">Pal<span>Tool</span></h1>
       <p class="hero-tagline">{emoji} All {label} Pals</p>
-      <p class="hero-hint">✅ Updated for Palworld 1.0 · 301 Pals · 44,552 Recipes</p>
+      <p class="hero-hint">✅ Updated for Palworld 1.0 · 299 Pals · 44,552 Recipes</p>
     </div>
   </div>
 
