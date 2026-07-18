@@ -8,9 +8,10 @@ const Breeder = (() => {
   // r: { "child_id": [["p1","p2"], ...] } - reverse lookup
   let breedData = null;
 
-  const SPECIAL_BREEDS = {
-    orserk: { parents: ['grizzbolt', 'relaxaurus'], note: 'Grizzbolt + Relaxaurus = Orserk' },
-  };
+  // v1.0: Pocketpair removed the old unique combos (e.g. Grizzbolt+Relaxaurus=Orserk).
+  // Those Pals are now wild-catchable / self-breed only. Keep this map empty unless
+  // a future patch re-adds true special routes that are absent from breed_data.json.
+  const SPECIAL_BREEDS = {};
 
   async function load() {
     const resp = await fetch('/breed_data.json');

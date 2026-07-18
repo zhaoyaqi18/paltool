@@ -57,7 +57,17 @@ def gen_page(pal):
     # Breeding info
     breed_info = ''
     combos = child_from.get(pid, [])
-    if combos and not (len(combos) == 1 and combos[0] == f'{pid}|{pid}'):
+    GENDER_COMBOS = {  # v1.0 gender-dependent pair: result depends on which parent is female
+        'catmage_fire': ('Katress', 'Wixen', 'Wixen Noct'),
+        'foxmage_dark': ('Wixen', 'Katress', 'Katress Ignis'),
+    }
+    self_only = len(combos) == 1 and combos[0] == f'{pid}|{pid}'
+    if pid in GENDER_COMBOS:
+        a, b, other = GENDER_COMBOS[pid]
+        breed_info = (f'<p>Unique combo: <strong>{a} + {b} = {name}</strong> — the result depends on '
+                      f'which parent is which gender; the reverse pairing produces {other}. '
+                      f'{name} can also be bred from two {name}.</p>')
+    elif combos and not self_only:
         # Multiple ways to breed this pal
         breed_info += '<p>This pal can be bred from:</p><ul>'
         for c in combos[:10]:
@@ -68,6 +78,14 @@ def gen_page(pal):
         if len(combos) > 10:
             breed_info += f'<li>...and {len(combos)-10} more combinations</li>'
         breed_info += '</ul>'
+    elif self_only and is_wild:
+        breed_info = (f'<p>Self-breeding only: <strong>{name} + {name} = {name}</strong>. '
+                      f'No other combination produces {name} in Palworld 1.0 — catch a pair in the wild, '
+                      f'then breed them to hatch more.</p>')
+    elif self_only:
+        breed_info = (f'<p>Self-breeding only: <strong>{name} + {name} = {name}</strong>. '
+                      f'{name} cannot be bred from other species — obtain it from raids, expeditions or '
+                      f'special content first, then breed two together to produce more.</p>')
     elif is_wild:
         breed_info = '<p>This pal can be caught in the wild.</p>'
     
@@ -163,11 +181,11 @@ def gen_page(pal):
       }}, 300);
     }});
   </script>
-  <script src="../../js/data.js?v=202"></script>
-  <script src="../../js/algorithm.js?v=202"></script>
-  <script src="../../js/renderer.js?v=202"></script>
-  <script src="../../js/share.js?v=202"></script>
-  <script src="../../js/app.js?v=202"></script>
+  <script src="../../js/data.js?v=203"></script>
+  <script src="../../js/algorithm.js?v=203"></script>
+  <script src="../../js/renderer.js?v=203"></script>
+  <script src="../../js/share.js?v=203"></script>
+  <script src="../../js/app.js?v=203"></script>
 </body>
 </html>'''
     return html
