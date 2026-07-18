@@ -186,17 +186,28 @@ for pal in pals:
 print(f"Generated {count} static SEO pages in {PALS_DIR}/")
 
 # Generate sitemap.xml
+import datetime
+TODAY = datetime.date.today().isoformat()
+
+def mtime_date(path):
+    try:
+        return datetime.date.fromtimestamp(os.path.getmtime(path)).isoformat()
+    except OSError:
+        return TODAY
+
 sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
 sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-sitemap += '  <url><loc>https://paltool.cc/</loc><priority>1.0</priority></url>\n'
+sitemap += f'  <url><loc>https://paltool.cc/</loc><lastmod>{mtime_date(os.path.join(OUT_DIR, "index.html"))}</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>\n'
 for pal in pals:
-    sitemap += f'  <url><loc>https://paltool.cc/pals/{pal["id"]}/</loc><priority>0.8</priority></url>\n'
+    sitemap += f'  <url><loc>https://paltool.cc/pals/{pal["id"]}/</loc><lastmod>{TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>\n'
 # Include guide pages
 guides_dir = os.path.join(OUT_DIR, 'guides')
 if os.path.isdir(guides_dir):
     for g in sorted(os.listdir(guides_dir)):
-        if os.path.isdir(os.path.join(guides_dir, g)):
-            sitemap += f'  <url><loc>https://paltool.cc/guides/{g}/</loc><priority>0.7</priority></url>\n'
+        gpath = os.path.join(guides_dir, g)
+        if os.path.isdir(gpath):
+            gmod = mtime_date(os.path.join(gpath, 'index.html'))
+            sitemap += f'  <url><loc>https://paltool.cc/guides/{g}/</loc><lastmod>{gmod}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n'
 sitemap += '</urlset>\n'
 
 with open(os.path.join(OUT_DIR, 'sitemap.xml'), 'w') as f:
