@@ -828,8 +828,8 @@
   },
   {
     "id": "ribunny",
-    "dex": 45,
-    "name": "Ribunny",
+    "dex": 44,
+    "name": "Ribbuny",
     "bp": 1310,
     "element": "neutral",
     "isWild": true,
@@ -837,7 +837,11 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/ribunny.png",
-    "work": {},
+    "work": {
+      "Handiwork": 1,
+      "Gathering": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Common Egg"
   },

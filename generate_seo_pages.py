@@ -32,7 +32,8 @@ def meta_desc(pal):
     bp = pal.get('bp', '?')
     egg = pal.get('egg', 'Unknown Egg')
     element = pal.get('element', '?').title()
-    return f"Learn how to breed {name} in Palworld. Find the fastest breeding path, best parent combos, and step-by-step roadmap. {element} type, BP={bp}, {egg}. 44,552 verified game-accurate recipes."
+    egg_bit = f', {egg}' if egg and egg != 'Unknown Egg' else ''
+    return f"Learn how to breed {name} in Palworld. Find the fastest breeding path, best parent combos, and step-by-step roadmap. {element} type, BP={bp}{egg_bit}. 44,552 verified game-accurate recipes."
 
 def pal_to_url(pal):
     return f"https://paltool.cc/pals/{pal['id']}/"
@@ -49,9 +50,13 @@ def gen_page(pal):
     dex = pal.get('dex', '?')
     
     # Work skills
+    WORK_LABELS = {
+        'GeneratingElectricity': 'Electricity Generation',
+        'MedicineProduction': 'Medicine Production',
+    }
     work_skills = ''
     if work:
-        work_list = ', '.join([f"{k.title()} Lv{v}" for k, v in work.items()])
+        work_list = ', '.join([f"{WORK_LABELS.get(k, k.title())} Lv{v}" for k, v in work.items()])
         work_skills = f'<p>Work Suitability: {work_list}</p>'
     
     # Breeding info
@@ -96,6 +101,8 @@ def gen_page(pal):
     else:
         habitat_info = '<p>❌ Cannot be found in the wild — must be bred.</p>'
     
+    egg_clause = f' It hatches from a <strong>{egg}</strong> and requires {food} food per meal.' \
+        if egg and egg != 'Unknown Egg' else f' It requires {food} food per meal.'
     html = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -149,7 +156,7 @@ def gen_page(pal):
   <!-- ===== Static SEO Content ===== -->
   <div class="seo-content" style="max-width:800px;margin:0 auto;padding:0 24px 40px;color:#94a3b8;font-size:14px;line-height:1.6;">
     <h2 style="color:#e2e8f0;font-size:20px;margin-bottom:12px;">How to Breed {name} in Palworld</h2>
-    <p><strong>{name}</strong> is a {element}-type Pal (#{dex} in the Paldeck) with a Breeding Power of <strong>{bp}</strong>. It hatches from a <strong>{egg}</strong> and requires {food} food per meal.</p>
+    <p><strong>{name}</strong> is a {element}-type Pal (#{dex} in the Paldeck) with a Breeding Power of <strong>{bp}</strong>.{egg_clause}</p>
     {habitat_info}
     {work_skills}
     {breed_info}
