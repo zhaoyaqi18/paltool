@@ -208,6 +208,15 @@ if os.path.isdir(guides_dir):
         if os.path.isdir(gpath):
             gmod = mtime_date(os.path.join(gpath, 'index.html'))
             sitemap += f'  <url><loc>https://paltool.cc/guides/{g}/</loc><lastmod>{gmod}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n'
+# Include ranking / element listing pages
+for section in ('best', 'elements'):
+    sec_dir = os.path.join(OUT_DIR, section)
+    if os.path.isdir(sec_dir):
+        for g in sorted(os.listdir(sec_dir)):
+            gpath = os.path.join(sec_dir, g)
+            if os.path.isdir(gpath):
+                gmod = mtime_date(os.path.join(gpath, 'index.html'))
+                sitemap += f'  <url><loc>https://paltool.cc/{section}/{g}/</loc><lastmod>{gmod}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n'
 sitemap += '</urlset>\n'
 
 with open(os.path.join(OUT_DIR, 'sitemap.xml'), 'w') as f:

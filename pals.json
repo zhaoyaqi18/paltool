@@ -1,7 +1,7 @@
 [
   {
     "id": "chikipi",
-    "dex": 1,
+    "dex": 3,
     "name": "Chikipi",
     "bp": 3080,
     "element": "neutral",
@@ -11,13 +11,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/chikipi.png",
-    "work": {},
+    "work": {
+      "Gathering": 1,
+      "Farming": 1
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "lamball",
-    "dex": 2,
+    "dex": 1,
     "name": "Lamball",
     "bp": 3050,
     "element": "neutral",
@@ -27,13 +30,17 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/lamball.png",
-    "work": {},
+    "work": {
+      "Handiwork": 1,
+      "Transporting": 1,
+      "Farming": 1
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "cattiva",
-    "dex": 3,
+    "dex": 2,
     "name": "Cattiva",
     "bp": 2760,
     "element": "neutral",
@@ -43,7 +50,12 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/cattiva.png",
-    "work": {},
+    "work": {
+      "Handiwork": 1,
+      "Gathering": 1,
+      "Mining": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Common Egg"
   },
@@ -59,13 +71,19 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/lifmunk.png",
-    "work": {},
+    "work": {
+      "Planting": 1,
+      "Handiwork": 1,
+      "Gathering": 1,
+      "Lumbering": 1,
+      "MedicineProduction": 1
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
   {
     "id": "foxparks",
-    "dex": 5,
+    "dex": 29,
     "name": "Foxparks",
     "bp": 2990,
     "element": "fire",
@@ -75,13 +93,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/foxparks.png",
-    "work": {},
+    "work": {
+      "Kindling": 1
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
   {
     "id": "fuack",
-    "dex": 6,
+    "dex": 5,
     "name": "Fuack",
     "bp": 2980,
     "element": "water",
@@ -90,13 +110,17 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/fuack.png",
-    "work": {},
+    "work": {
+      "Watering": 1,
+      "Handiwork": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Wetland Egg"
   },
   {
     "id": "sparkit",
-    "dex": 7,
+    "dex": 42,
     "name": "Sparkit",
     "bp": 3010,
     "element": "electric",
@@ -105,13 +129,18 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/sparkit.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 1,
+      "Handiwork": 1,
+      "Transporting": 1,
+      "Farming": 1
+    },
     "food": 7,
     "egg": "Electric Egg"
   },
   {
     "id": "tanzee",
-    "dex": 8,
+    "dex": 23,
     "name": "Tanzee",
     "bp": 2900,
     "element": "grass",
@@ -120,13 +149,19 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/tanzee.png",
-    "work": {},
+    "work": {
+      "Planting": 1,
+      "Handiwork": 1,
+      "Gathering": 1,
+      "Lumbering": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
   {
     "id": "rooby",
-    "dex": 9,
+    "dex": 26,
     "name": "Rooby",
     "bp": 2870,
     "element": "fire",
@@ -135,13 +170,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/rooby.png",
-    "work": {},
+    "work": {
+      "Kindling": 1,
+      "Farming": 1
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
   {
     "id": "pengullet",
-    "dex": 10,
+    "dex": 17,
     "name": "Pengullet",
     "bp": 2960,
     "element": "water",
@@ -150,13 +188,19 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/pengullet.png",
-    "work": {},
+    "work": {
+      "Watering": 1,
+      "Handiwork": 1,
+      "Cooling": 1,
+      "Transporting": 1
+    },
     "food": 7,
-    "egg": "Wetland Egg"
+    "egg": "Wetland Egg",
+    "element2": "ice"
   },
   {
     "id": "penking",
-    "dex": 11,
+    "dex": 18,
     "name": "Penking",
     "bp": 2070,
     "element": "water",
@@ -167,13 +211,19 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/penking.png",
-    "work": {},
+    "work": {
+      "Watering": 2,
+      "Handiwork": 2,
+      "Mining": 3,
+      "Cooling": 2,
+      "Transporting": 3
+    },
     "food": 7,
     "egg": "Wetland Egg"
   },
   {
     "id": "jolthog",
-    "dex": 12,
+    "dex": 15,
     "name": "Jolthog",
     "bp": 3030,
     "element": "electric",
@@ -182,7 +232,9 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/jolthog.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 1
+    },
     "food": 7,
     "egg": "Electric Egg"
   },
@@ -197,13 +249,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/jolthog_cryst.png",
-    "work": {},
+    "work": {
+      "Cooling": 1
+    },
     "food": 7,
     "egg": "Frozen Egg"
   },
   {
     "id": "gumoss",
-    "dex": 14,
+    "dex": 12,
     "name": "Gumoss",
     "bp": 2950,
     "element": "grass",
@@ -213,13 +267,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/gumoss.png",
-    "work": {},
+    "work": {
+      "Planting": 1
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
   {
     "id": "vixy",
-    "dex": 15,
+    "dex": 6,
     "name": "Vixy",
     "bp": 3060,
     "element": "neutral",
@@ -228,13 +284,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/vixy.png",
-    "work": {},
+    "work": {
+      "Gathering": 1,
+      "Farming": 1
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "hoocrates",
-    "dex": 16,
+    "dex": 19,
     "name": "Hoocrates",
     "bp": 2940,
     "element": "dark",
@@ -243,13 +302,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/hoocrates.png",
-    "work": {},
+    "work": {
+      "Gathering": 1
+    },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "teafant",
-    "dex": 17,
+    "dex": 11,
     "name": "Teafant",
     "bp": 3070,
     "element": "water",
@@ -258,13 +319,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/teafant.png",
-    "work": {},
+    "work": {
+      "Watering": 1
+    },
     "food": 7,
     "egg": "Wetland Egg"
   },
   {
     "id": "depresso",
-    "dex": 18,
+    "dex": 16,
     "name": "Depresso",
     "bp": 3000,
     "element": "dark",
@@ -273,13 +336,18 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/depresso.png",
-    "work": {},
+    "work": {
+      "Handiwork": 1,
+      "Mining": 1,
+      "Transporting": 1,
+      "Farming": 1
+    },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "cremis",
-    "dex": 19,
+    "dex": 8,
     "name": "Cremis",
     "bp": 2890,
     "element": "neutral",
@@ -288,13 +356,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/cremis.png",
-    "work": {},
+    "work": {
+      "Gathering": 1,
+      "Farming": 2
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "daedream",
-    "dex": 20,
+    "dex": 22,
     "name": "Daedream",
     "bp": 2910,
     "element": "dark",
@@ -303,13 +374,17 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/daedream.png",
-    "work": {},
+    "work": {
+      "Handiwork": 1,
+      "Gathering": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "rushoar",
-    "dex": 21,
+    "dex": 28,
     "name": "Rushoar",
     "bp": 2880,
     "element": "ground",
@@ -318,13 +393,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/rushoar.png",
-    "work": {},
+    "work": {
+      "Mining": 1
+    },
     "food": 7,
     "egg": "Rocky Egg"
   },
   {
     "id": "nox",
-    "dex": 22,
+    "dex": 24,
     "name": "Nox",
     "bp": 2920,
     "element": "dark",
@@ -333,13 +410,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/nox.png",
-    "work": {},
+    "work": {
+      "Gathering": 1
+    },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "fuddler",
-    "dex": 23,
+    "dex": 31,
     "name": "Fuddler",
     "bp": 2790,
     "element": "ground",
@@ -348,13 +427,17 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/fuddler.png",
-    "work": {},
+    "work": {
+      "Handiwork": 1,
+      "Mining": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Rocky Egg"
   },
   {
     "id": "killamari",
-    "dex": 24,
+    "dex": 30,
     "name": "Killamari",
     "bp": 2770,
     "element": "dark",
@@ -363,13 +446,18 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/killamari.png",
-    "work": {},
+    "work": {
+      "Watering": 1,
+      "Gathering": 1,
+      "Transporting": 2
+    },
     "food": 7,
-    "egg": "Dark Egg"
+    "egg": "Dark Egg",
+    "element2": "water"
   },
   {
     "id": "mau",
-    "dex": 25,
+    "dex": 27,
     "name": "Mau",
     "bp": 3040,
     "element": "dark",
@@ -378,7 +466,10 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/mau.png",
-    "work": {},
+    "work": {
+      "Gathering": 1,
+      "Farming": 1
+    },
     "food": 7,
     "egg": "Dark Egg"
   },
@@ -393,13 +484,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/mau_cryst.png",
-    "work": {},
+    "work": {
+      "Cooling": 1,
+      "Farming": 1
+    },
     "food": 7,
     "egg": "Frozen Egg"
   },
   {
     "id": "celaray",
-    "dex": 27,
+    "dex": 7,
     "name": "Celaray",
     "bp": 2740,
     "element": "water",
@@ -408,13 +502,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/celaray.png",
-    "work": {},
+    "work": {
+      "Watering": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Wetland Egg"
   },
   {
     "id": "direhowl",
-    "dex": 28,
+    "dex": 33,
     "name": "Direhowl",
     "bp": 2680,
     "element": "neutral",
@@ -424,13 +521,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/direhowl.png",
-    "work": {},
+    "work": {
+      "Gathering": 1
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "tocotoco",
-    "dex": 29,
+    "dex": 53,
     "name": "Tocotoco",
     "bp": 2730,
     "element": "neutral",
@@ -439,13 +538,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/tocotoco.png",
-    "work": {},
+    "work": {
+      "Gathering": 1
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "flopie",
-    "dex": 30,
+    "dex": 77,
     "name": "Flopie",
     "bp": 2660,
     "element": "grass",
@@ -454,13 +555,19 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/flopie.png",
-    "work": {},
+    "work": {
+      "Planting": 2,
+      "Handiwork": 2,
+      "Gathering": 2,
+      "MedicineProduction": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
   {
     "id": "mozzarina",
-    "dex": 31,
+    "dex": 40,
     "name": "Mozzarina",
     "bp": 2800,
     "element": "neutral",
@@ -469,13 +576,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/mozzarina.png",
-    "work": {},
+    "work": {
+      "Farming": 2
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "bristla",
-    "dex": 32,
+    "dex": 60,
     "name": "Bristla",
     "bp": 2690,
     "element": "grass",
@@ -484,13 +593,19 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/bristla.png",
-    "work": {},
+    "work": {
+      "Planting": 2,
+      "Handiwork": 2,
+      "Gathering": 2,
+      "MedicineProduction": 2,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
   {
     "id": "gobfin",
-    "dex": 33,
+    "dex": 55,
     "name": "Gobfin",
     "bp": 2550,
     "element": "water",
@@ -499,7 +614,11 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/gobfin.png",
-    "work": {},
+    "work": {
+      "Watering": 2,
+      "Handiwork": 2,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Wetland Egg"
   },
@@ -514,13 +633,17 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/gobfin_ignis.png",
-    "work": {},
+    "work": {
+      "Kindling": 2,
+      "Handiwork": 2,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
   {
     "id": "hangyu",
-    "dex": 35,
+    "dex": 38,
     "name": "Hangyu",
     "bp": 2780,
     "element": "ground",
@@ -529,7 +652,11 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/hangyu.png",
-    "work": {},
+    "work": {
+      "Handiwork": 1,
+      "Gathering": 1,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Rocky Egg"
   },
@@ -544,13 +671,18 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/hangyu_cryst.png",
-    "work": {},
+    "work": {
+      "Handiwork": 3,
+      "Gathering": 2,
+      "Cooling": 2,
+      "Transporting": 3
+    },
     "food": 7,
     "egg": "Frozen Egg"
   },
   {
     "id": "mossanda",
-    "dex": 37,
+    "dex": 102,
     "name": "Mossanda",
     "bp": 2060,
     "element": "grass",
@@ -560,7 +692,12 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/mossanda.png",
-    "work": {},
+    "work": {
+      "Planting": 3,
+      "Handiwork": 2,
+      "Lumbering": 4,
+      "Transporting": 4
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
@@ -575,7 +712,12 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/mossanda_lux.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 4,
+      "Handiwork": 3,
+      "Lumbering": 4,
+      "Transporting": 4
+    },
     "food": 7,
     "egg": "Electric Egg"
   },
@@ -590,13 +732,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/woolipop.png",
-    "work": {},
+    "work": {
+      "Farming": 1
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "caprity",
-    "dex": 40,
+    "dex": 34,
     "name": "Caprity",
     "bp": 2610,
     "element": "grass",
@@ -605,13 +749,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/caprity.png",
-    "work": {},
+    "work": {
+      "Planting": 2,
+      "Farming": 1
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
   {
     "id": "melpaca",
-    "dex": 41,
+    "dex": 20,
     "name": "Melpaca",
     "bp": 2720,
     "element": "neutral",
@@ -620,13 +767,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/melpaca.png",
-    "work": {},
+    "work": {
+      "Farming": 2
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "eikthyrdeer",
-    "dex": 42,
+    "dex": 32,
     "name": "Eikthyrdeer",
     "bp": 2710,
     "element": "neutral",
@@ -636,7 +785,9 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/eikthyrdeer.png",
-    "work": {},
+    "work": {
+      "Lumbering": 2
+    },
     "food": 7,
     "egg": "Common Egg"
   },
@@ -651,13 +802,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/eikthyrdeer_terra.png",
-    "work": {},
+    "work": {
+      "Lumbering": 2
+    },
     "food": 7,
     "egg": "Rocky Egg"
   },
   {
     "id": "nitewing",
-    "dex": 44,
+    "dex": 51,
     "name": "Nitewing",
     "bp": 2560,
     "element": "neutral",
@@ -667,7 +820,9 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/nitewing.png",
-    "work": {},
+    "work": {
+      "Gathering": 2
+    },
     "food": 7,
     "egg": "Common Egg"
   },
@@ -688,7 +843,7 @@
   },
   {
     "id": "incineram",
-    "dex": 46,
+    "dex": 91,
     "name": "Incineram",
     "bp": 1470,
     "element": "fire",
@@ -698,7 +853,12 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/incineram.png",
-    "work": {},
+    "work": {
+      "Kindling": 3,
+      "Handiwork": 2,
+      "Mining": 3,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
@@ -713,13 +873,17 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/incineram_noct.png",
-    "work": {},
+    "work": {
+      "Handiwork": 2,
+      "Mining": 1,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "cinnamoth",
-    "dex": 48,
+    "dex": 61,
     "name": "Cinnamoth",
     "bp": 2620,
     "element": "grass",
@@ -728,13 +892,17 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/cinnamoth.png",
-    "work": {},
+    "work": {
+      "Planting": 2,
+      "Gathering": 2,
+      "MedicineProduction": 2
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
   {
     "id": "arsox",
-    "dex": 49,
+    "dex": 58,
     "name": "Arsox",
     "bp": 2320,
     "element": "fire",
@@ -744,13 +912,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/arsox.png",
-    "work": {},
+    "work": {
+      "Kindling": 3,
+      "Lumbering": 2
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
   {
     "id": "dumud",
-    "dex": 50,
+    "dex": 109,
     "name": "Dumud",
     "bp": 2290,
     "element": "ground",
@@ -759,13 +930,19 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/dumud.png",
-    "work": {},
+    "work": {
+      "Watering": 2,
+      "Mining": 2,
+      "Transporting": 1,
+      "Farming": 1
+    },
     "food": 7,
-    "egg": "Rocky Egg"
+    "egg": "Rocky Egg",
+    "element2": "water"
   },
   {
     "id": "cawgnito",
-    "dex": 51,
+    "dex": 57,
     "name": "Cawgnito",
     "bp": 2370,
     "element": "dark",
@@ -774,13 +951,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/cawgnito.png",
-    "work": {},
+    "work": {
+      "Lumbering": 2,
+      "Farming": 1
+    },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "leezpunk",
-    "dex": 52,
+    "dex": 73,
     "name": "Leezpunk",
     "bp": 2670,
     "element": "dark",
@@ -789,7 +969,11 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/leezpunk.png",
-    "work": {},
+    "work": {
+      "Handiwork": 1,
+      "Gathering": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Dark Egg"
   },
@@ -804,13 +988,18 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/leezpunk_ignis.png",
-    "work": {},
+    "work": {
+      "Kindling": 2,
+      "Handiwork": 2,
+      "Gathering": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
   {
     "id": "loupmoon",
-    "dex": 54,
+    "dex": 56,
     "name": "Loupmoon",
     "bp": 2110,
     "element": "dark",
@@ -820,16 +1009,14 @@
     "passiveSource": "breed_only",
     "image": "img/pals/loupmoon.png",
     "work": {
-      "Handiwork": 2,
-      "Gathering": 2,
-      "Transporting": 2
+      "Handiwork": 2
     },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "galeclaw",
-    "dex": 55,
+    "dex": 49,
     "name": "Galeclaw",
     "bp": 2570,
     "element": "neutral",
@@ -838,13 +1025,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/galeclaw.png",
-    "work": {},
+    "work": {
+      "Gathering": 2
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "robinquill",
-    "dex": 56,
+    "dex": 76,
     "name": "Robinquill",
     "bp": 2260,
     "element": "grass",
@@ -853,7 +1042,14 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/robinquill.png",
-    "work": {},
+    "work": {
+      "Planting": 2,
+      "Handiwork": 3,
+      "Gathering": 3,
+      "Lumbering": 2,
+      "MedicineProduction": 1,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
@@ -869,13 +1065,19 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/robinquill_terra.png",
-    "work": {},
+    "work": {
+      "Handiwork": 3,
+      "Gathering": 3,
+      "Lumbering": 2,
+      "MedicineProduction": 2,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
   {
     "id": "gorirat",
-    "dex": 58,
+    "dex": 74,
     "name": "Gorirat",
     "bp": 2140,
     "element": "neutral",
@@ -884,13 +1086,17 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/gorirat.png",
-    "work": {},
+    "work": {
+      "Handiwork": 2,
+      "Lumbering": 3,
+      "Transporting": 3
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "beegarde",
-    "dex": 59,
+    "dex": 67,
     "name": "Beegarde",
     "bp": 2350,
     "element": "grass",
@@ -899,13 +1105,21 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/beegarde.png",
-    "work": {},
+    "work": {
+      "Planting": 2,
+      "Handiwork": 2,
+      "Gathering": 3,
+      "Lumbering": 2,
+      "MedicineProduction": 2,
+      "Transporting": 2,
+      "Farming": 3
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
   {
     "id": "elizabee",
-    "dex": 60,
+    "dex": 68,
     "name": "Elizabee",
     "bp": 1790,
     "element": "grass",
@@ -916,17 +1130,18 @@
     "passiveSource": "breed_only",
     "image": "img/pals/elizabee.png",
     "work": {
-      "Planting": 2,
-      "Handiwork": 2,
-      "MedicineProduction": 2,
-      "Gathering": 2
+      "Planting": 4,
+      "Handiwork": 4,
+      "Gathering": 4,
+      "Lumbering": 3,
+      "MedicineProduction": 4
     },
     "food": 7,
     "egg": "Verdant Egg"
   },
   {
     "id": "grintale",
-    "dex": 61,
+    "dex": 70,
     "name": "Grintale",
     "bp": 2120,
     "element": "neutral",
@@ -936,13 +1151,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/grintale.png",
-    "work": {},
+    "work": {
+      "Gathering": 3
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "swee",
-    "dex": 62,
+    "dex": 35,
     "name": "Swee",
     "bp": 2840,
     "element": "ice",
@@ -951,13 +1168,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/swee.png",
-    "work": {},
+    "work": {
+      "Gathering": 1,
+      "Cooling": 1
+    },
     "food": 7,
     "egg": "Frozen Egg"
   },
   {
     "id": "sweepa",
-    "dex": 63,
+    "dex": 36,
     "name": "Sweepa",
     "bp": 2150,
     "element": "ice",
@@ -967,13 +1187,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/sweepa.png",
-    "work": {},
+    "work": {
+      "Gathering": 2,
+      "Cooling": 3
+    },
     "food": 7,
     "egg": "Frozen Egg"
   },
   {
     "id": "chillet",
-    "dex": 64,
+    "dex": 103,
     "name": "Chillet",
     "bp": 2330,
     "element": "ice",
@@ -984,13 +1207,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/chillet.png",
-    "work": {},
+    "work": {
+      "Gathering": 1,
+      "Cooling": 2
+    },
     "food": 7,
     "egg": "Frozen Egg"
   },
   {
     "id": "univolt",
-    "dex": 65,
+    "dex": 54,
     "name": "Univolt",
     "bp": 2270,
     "element": "electric",
@@ -1000,13 +1226,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/univolt.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 3,
+      "Lumbering": 1
+    },
     "food": 7,
     "egg": "Electric Egg"
   },
   {
     "id": "foxcicle",
-    "dex": 66,
+    "dex": 95,
     "name": "Foxcicle",
     "bp": 1970,
     "element": "ice",
@@ -1015,13 +1244,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/foxcicle.png",
-    "work": {},
+    "work": {
+      "Cooling": 4,
+      "Farming": 3
+    },
     "food": 7,
     "egg": "Frozen Egg"
   },
   {
     "id": "pyrin",
-    "dex": 67,
+    "dex": 93,
     "name": "Pyrin",
     "bp": 1980,
     "element": "fire",
@@ -1030,7 +1262,10 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/pyrin.png",
-    "work": {},
+    "work": {
+      "Kindling": 4,
+      "Lumbering": 2
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
@@ -1046,13 +1281,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/pyrin_noct.png",
-    "work": {},
+    "work": {
+      "Kindling": 4,
+      "Lumbering": 3
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
   {
     "id": "reindrix",
-    "dex": 69,
+    "dex": 101,
     "name": "Reindrix",
     "bp": 1930,
     "element": "ice",
@@ -1061,13 +1299,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/reindrix.png",
-    "work": {},
+    "work": {
+      "Lumbering": 3,
+      "Cooling": 3
+    },
     "food": 7,
     "egg": "Frozen Egg"
   },
   {
     "id": "rayhound",
-    "dex": 70,
+    "dex": 98,
     "name": "Rayhound",
     "bp": 1920,
     "element": "electric",
@@ -1076,13 +1317,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/rayhound.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 4
+    },
     "food": 7,
     "egg": "Electric Egg"
   },
   {
     "id": "kitsun",
-    "dex": 71,
+    "dex": 111,
     "name": "Kitsun",
     "bp": 1670,
     "element": "fire",
@@ -1091,13 +1334,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/kitsun.png",
-    "work": {},
+    "work": {
+      "Kindling": 3
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
   {
     "id": "dazzi",
-    "dex": 72,
+    "dex": 92,
     "name": "Dazzi",
     "bp": 2400,
     "element": "electric",
@@ -1106,13 +1351,17 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/dazzi.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 3,
+      "Handiwork": 2,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Electric Egg"
   },
   {
     "id": "lunaris",
-    "dex": 73,
+    "dex": 82,
     "name": "Lunaris",
     "bp": 1110,
     "element": "neutral",
@@ -1122,14 +1371,16 @@
     "passiveSource": "breed_only",
     "image": "img/pals/lunaris.png",
     "work": {
-      "Handiwork": 3
+      "Handiwork": 4,
+      "Gathering": 2,
+      "Transporting": 2
     },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "dinossom",
-    "dex": 74,
+    "dex": 84,
     "name": "Dinossom",
     "bp": 2100,
     "element": "grass",
@@ -1140,7 +1391,10 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/dinossom.png",
-    "work": {},
+    "work": {
+      "Planting": 3,
+      "Lumbering": 3
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
@@ -1156,13 +1410,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/dinossom_lux.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 3,
+      "Lumbering": 4
+    },
     "food": 7,
     "egg": "Electric Egg"
   },
   {
     "id": "surfent",
-    "dex": 76,
+    "dex": 75,
     "name": "Surfent",
     "bp": 2440,
     "element": "water",
@@ -1171,7 +1428,10 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/surfent.png",
-    "work": {},
+    "work": {
+      "Watering": 3,
+      "Farming": 2
+    },
     "food": 7,
     "egg": "Wetland Egg"
   },
@@ -1186,13 +1446,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/surfent_terra.png",
-    "work": {},
+    "work": {
+      "Gathering": 3
+    },
     "food": 7,
     "egg": "Rocky Egg"
   },
   {
     "id": "maraith",
-    "dex": 78,
+    "dex": 117,
     "name": "Maraith",
     "bp": 1710,
     "element": "dark",
@@ -1201,13 +1463,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/maraith.png",
-    "work": {},
+    "work": {
+      "Gathering": 4,
+      "Mining": 4
+    },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "verdash",
-    "dex": 79,
+    "dex": 152,
     "name": "Verdash",
     "bp": 1160,
     "element": "grass",
@@ -1217,17 +1482,18 @@
     "passiveSource": "breed_only",
     "image": "img/pals/verdash.png",
     "work": {
-      "Planting": 2,
-      "Handiwork": 3,
-      "Lumbering": 2,
-      "Transporting": 2
+      "Planting": 4,
+      "Handiwork": 5,
+      "Gathering": 5,
+      "Lumbering": 3,
+      "Transporting": 3
     },
     "food": 7,
     "egg": "Verdant Egg"
   },
   {
     "id": "vaelet",
-    "dex": 80,
+    "dex": 66,
     "name": "Vaelet",
     "bp": 1480,
     "element": "grass",
@@ -1236,13 +1502,20 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/vaelet.png",
-    "work": {},
+    "work": {
+      "Planting": 3,
+      "Handiwork": 3,
+      "Gathering": 3,
+      "MedicineProduction": 3,
+      "Transporting": 2,
+      "Farming": 2
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
   {
     "id": "sibelyx",
-    "dex": 81,
+    "dex": 116,
     "name": "Sibelyx",
     "bp": 1810,
     "element": "ice",
@@ -1251,13 +1524,17 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/sibelyx.png",
-    "work": {},
+    "work": {
+      "MedicineProduction": 3,
+      "Cooling": 3,
+      "Farming": 3
+    },
     "food": 7,
     "egg": "Frozen Egg"
   },
   {
     "id": "elphidran",
-    "dex": 82,
+    "dex": 63,
     "name": "Elphidran",
     "bp": 2280,
     "element": "dragon",
@@ -1266,7 +1543,9 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/elphidran.png",
-    "work": {},
+    "work": {
+      "Lumbering": 3
+    },
     "food": 7,
     "egg": "Dragon Egg"
   },
@@ -1275,20 +1554,23 @@
     "dex": 83,
     "name": "Elphidran Aqua",
     "bp": 1640,
-    "element": "water",
-    "element2": "dragon",
+    "element": "dragon",
+    "element2": "water",
     "isWild": true,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/elphidran_aqua.png",
-    "work": {},
+    "work": {
+      "Watering": 4,
+      "Lumbering": 3
+    },
     "food": 7,
     "egg": "Wetland Egg"
   },
   {
     "id": "kelpsea",
-    "dex": 84,
+    "dex": 43,
     "name": "Kelpsea",
     "bp": 2810,
     "element": "water",
@@ -1297,7 +1579,10 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/kelpsea.png",
-    "work": {},
+    "work": {
+      "Watering": 1,
+      "Farming": 1
+    },
     "food": 7,
     "egg": "Wetland Egg"
   },
@@ -1312,13 +1597,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/kelpsea_ignis.png",
-    "work": {},
+    "work": {
+      "Kindling": 1,
+      "Farming": 1
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
   {
     "id": "azurobe",
-    "dex": 86,
+    "dex": 41,
     "name": "Azurobe",
     "bp": 1830,
     "element": "water",
@@ -1329,13 +1617,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/azurobe.png",
-    "work": {},
+    "work": {
+      "Watering": 4
+    },
     "food": 7,
     "egg": "Wetland Egg"
   },
   {
     "id": "cryolinx",
-    "dex": 87,
+    "dex": 132,
     "name": "Cryolinx",
     "bp": 1040,
     "element": "ice",
@@ -1344,13 +1634,18 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/cryolinx.png",
-    "work": {},
+    "work": {
+      "Handiwork": 3,
+      "Lumbering": 4,
+      "Cooling": 4,
+      "Transporting": 4
+    },
     "food": 7,
     "egg": "Frozen Egg"
   },
   {
     "id": "blazehowl",
-    "dex": 88,
+    "dex": 112,
     "name": "Blazehowl",
     "bp": 1360,
     "element": "fire",
@@ -1359,7 +1654,10 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/blazehowl.png",
-    "work": {},
+    "work": {
+      "Kindling": 5,
+      "Lumbering": 3
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
@@ -1375,13 +1673,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/blazehowl_noct.png",
-    "work": {},
+    "work": {
+      "Kindling": 5,
+      "Lumbering": 3
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
   {
     "id": "relaxaurus",
-    "dex": 90,
+    "dex": 94,
     "name": "Relaxaurus",
     "bp": 1090,
     "element": "dragon",
@@ -1393,7 +1694,8 @@
     "passiveSource": "breed_only",
     "image": "img/pals/relaxaurus.png",
     "work": {
-      "Transporting": 2
+      "Watering": 3,
+      "Transporting": 3
     },
     "food": 7,
     "egg": "Dragon Egg"
@@ -1411,15 +1713,15 @@
     "passiveSource": "breed_only",
     "image": "img/pals/relaxaurus_lux.png",
     "work": {
-      "GeneratingElectricity": 3,
-      "Transporting": 2
+      "GeneratingElectricity": 6,
+      "Transporting": 4
     },
     "food": 7,
     "egg": "Dragon Egg"
   },
   {
     "id": "broncherry",
-    "dex": 92,
+    "dex": 108,
     "name": "Broncherry",
     "bp": 1380,
     "element": "grass",
@@ -1429,7 +1731,9 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/broncherry.png",
-    "work": {},
+    "work": {
+      "Planting": 5
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
@@ -1445,13 +1749,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/broncherry_aqua.png",
-    "work": {},
+    "work": {
+      "Watering": 5
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
   {
     "id": "petallia",
-    "dex": 94,
+    "dex": 89,
     "name": "Petallia",
     "bp": 1720,
     "element": "grass",
@@ -1461,15 +1767,18 @@
     "passiveSource": "breed_only",
     "image": "img/pals/petallia.png",
     "work": {
-      "Planting": 3,
-      "MedicineProduction": 2
+      "Planting": 4,
+      "Handiwork": 3,
+      "Gathering": 3,
+      "MedicineProduction": 4,
+      "Transporting": 2
     },
     "food": 7,
     "egg": "Verdant Egg"
   },
   {
     "id": "reptyro",
-    "dex": 95,
+    "dex": 129,
     "name": "Reptyro",
     "bp": 1060,
     "element": "fire",
@@ -1481,8 +1790,8 @@
     "passiveSource": "breed_only",
     "image": "img/pals/reptyro.png",
     "work": {
-      "Kindling": 2,
-      "Mining": 3
+      "Kindling": 5,
+      "Mining": 5
     },
     "food": 7,
     "egg": "Scorching Egg"
@@ -1499,13 +1808,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/reptyro_cryst.png",
-    "work": {},
+    "work": {
+      "Mining": 5,
+      "Cooling": 5
+    },
     "food": 7,
     "egg": "Frozen Egg"
   },
   {
     "id": "kingpaca",
-    "dex": 97,
+    "dex": 21,
     "name": "Kingpaca",
     "bp": 2220,
     "element": "neutral",
@@ -1515,7 +1827,9 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/kingpaca.png",
-    "work": {},
+    "work": {
+      "Gathering": 2
+    },
     "food": 7,
     "egg": "Common Egg"
   },
@@ -1530,13 +1844,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/kingpaca_cryst.png",
-    "work": {},
+    "work": {
+      "Gathering": 2,
+      "Cooling": 4
+    },
     "food": 7,
     "egg": "Frozen Egg"
   },
   {
     "id": "mammorest",
-    "dex": 99,
+    "dex": 87,
     "name": "Mammorest",
     "bp": 1340,
     "element": "grass",
@@ -1546,9 +1863,14 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/mammorest.png",
-    "work": {},
+    "work": {
+      "Planting": 4,
+      "Lumbering": 4,
+      "Mining": 4
+    },
     "food": 7,
-    "egg": "Verdant Egg"
+    "egg": "Verdant Egg",
+    "element2": "ground"
   },
   {
     "id": "mammorest_cryst",
@@ -1561,25 +1883,31 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/mammorest_cryst.png",
-    "work": {},
+    "work": {
+      "Lumbering": 5,
+      "Mining": 4,
+      "Cooling": 5
+    },
     "food": 7,
-    "egg": "Frozen Egg"
+    "egg": "Frozen Egg",
+    "element2": "ground"
   },
   {
     "id": "wumpo",
-    "dex": 101,
+    "dex": 134,
     "name": "Wumpo",
     "bp": 830,
-    "element": "grass",
+    "element": "ice",
     "isWild": true,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/wumpo.png",
     "work": {
-      "Cooling": 2,
-      "Lumbering": 3,
-      "Transporting": 3
+      "Handiwork": 3,
+      "Lumbering": 5,
+      "Cooling": 5,
+      "Transporting": 6
     },
     "food": 7,
     "egg": "Verdant Egg"
@@ -1596,16 +1924,17 @@
     "passiveSource": "breed_only",
     "image": "img/pals/wumpo_botan.png",
     "work": {
-      "Planting": 2,
-      "Lumbering": 3,
-      "Transporting": 3
+      "Planting": 3,
+      "Handiwork": 3,
+      "Lumbering": 5,
+      "Transporting": 6
     },
     "food": 7,
     "egg": "Verdant Egg"
   },
   {
     "id": "warsect",
-    "dex": 103,
+    "dex": 113,
     "name": "Warsect",
     "bp": 1280,
     "element": "ground",
@@ -1616,13 +1945,18 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/warsect.png",
-    "work": {},
+    "work": {
+      "Planting": 3,
+      "Handiwork": 3,
+      "Lumbering": 4,
+      "Transporting": 5
+    },
     "food": 7,
     "egg": "Rocky Egg"
   },
   {
     "id": "fenglope",
-    "dex": 104,
+    "dex": 83,
     "name": "Fenglope",
     "bp": 1960,
     "element": "neutral",
@@ -1632,13 +1966,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/fenglope.png",
-    "work": {},
+    "work": {
+      "Lumbering": 3
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "felbat",
-    "dex": 105,
+    "dex": 65,
     "name": "Felbat",
     "bp": 1570,
     "element": "dark",
@@ -1647,13 +1983,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/felbat.png",
-    "work": {},
+    "work": {
+      "MedicineProduction": 3
+    },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "quivern",
-    "dex": 106,
+    "dex": 124,
     "name": "Quivern",
     "bp": 1210,
     "element": "dragon",
@@ -1663,13 +2001,18 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/quivern.png",
-    "work": {},
+    "work": {
+      "Handiwork": 2,
+      "Gathering": 3,
+      "Mining": 4,
+      "Transporting": 5
+    },
     "food": 7,
     "egg": "Dragon Egg"
   },
   {
     "id": "blazamut",
-    "dex": 107,
+    "dex": 137,
     "name": "Blazamut",
     "bp": 410,
     "element": "fire",
@@ -1680,15 +2023,15 @@
     "passiveSource": "breed_only",
     "image": "img/pals/blazamut.png",
     "work": {
-      "Kindling": 3,
-      "Mining": 4
+      "Kindling": 6,
+      "Mining": 7
     },
     "food": 7,
     "egg": "Scorching Egg"
   },
   {
     "id": "helzephyr",
-    "dex": 108,
+    "dex": 80,
     "name": "Helzephyr",
     "bp": 1130,
     "element": "dark",
@@ -1708,23 +2051,27 @@
     "dex": 109,
     "name": "Helzephyr Lux",
     "bp": 960,
-    "element": "electric",
+    "element": "dark",
     "isWild": true,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/helzephyr_lux.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 4,
+      "Transporting": 5
+    },
     "food": 7,
-    "egg": "Electric Egg"
+    "egg": "Electric Egg",
+    "element2": "electric"
   },
   {
     "id": "astegon",
-    "dex": 110,
+    "dex": 158,
     "name": "Astegon",
     "bp": 490,
-    "element": "dark",
-    "element2": "dragon",
+    "element": "dragon",
+    "element2": "dark",
     "isWild": true,
     "isAlpha": true,
     "alphaLocation": "No.3 Wildlife Sanctuary",
@@ -1732,14 +2079,15 @@
     "passiveSource": "breed_only",
     "image": "img/pals/astegon.png",
     "work": {
-      "Mining": 4
+      "Handiwork": 3,
+      "Mining": 7
     },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "menasting",
-    "dex": 111,
+    "dex": 99,
     "name": "Menasting",
     "bp": 1120,
     "element": "dark",
@@ -1751,15 +2099,15 @@
     "passiveSource": "breed_only",
     "image": "img/pals/menasting.png",
     "work": {
-      "Mining": 2,
-      "Lumbering": 3
+      "Lumbering": 3,
+      "Mining": 5
     },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "anubis",
-    "dex": 112,
+    "dex": 139,
     "name": "Anubis",
     "bp": 480,
     "element": "ground",
@@ -1770,20 +2118,20 @@
     "passiveSource": "breed_only",
     "image": "img/pals/anubis.png",
     "work": {
-      "Handiwork": 4,
-      "Mining": 3,
-      "Transporting": 2
+      "Handiwork": 6,
+      "Mining": 6,
+      "Transporting": 4
     },
     "food": 7,
     "egg": "Rocky Egg"
   },
   {
     "id": "jormuntide",
-    "dex": 113,
+    "dex": 121,
     "name": "Jormuntide",
     "bp": 590,
-    "element": "water",
-    "element2": "dragon",
+    "element": "dragon",
+    "element2": "water",
     "isWild": true,
     "isAlpha": true,
     "alphaLocation": "Investigator's Fork",
@@ -1791,7 +2139,7 @@
     "passiveSource": "breed_only",
     "image": "img/pals/jormuntide.png",
     "work": {
-      "Watering": 4
+      "Watering": 7
     },
     "food": 7,
     "egg": "Wetland Egg"
@@ -1801,23 +2149,22 @@
     "dex": 114,
     "name": "Jormuntide Ignis",
     "bp": 170,
-    "element": "fire",
-    "element2": "dragon",
+    "element": "dragon",
+    "element2": "fire",
     "isWild": true,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/jormuntide_ignis.png",
     "work": {
-      "Kindling": 4,
-      "Watering": 1
+      "Kindling": 7
     },
     "food": 7,
     "egg": "Scorching Egg"
   },
   {
     "id": "suzaku",
-    "dex": 115,
+    "dex": 122,
     "name": "Suzaku",
     "bp": 1200,
     "element": "fire",
@@ -1828,7 +2175,7 @@
     "passiveSource": "breed_only",
     "image": "img/pals/suzaku.png",
     "work": {
-      "Kindling": 3
+      "Kindling": 5
     },
     "food": 7,
     "egg": "Scorching Egg"
@@ -1845,14 +2192,14 @@
     "passiveSource": "breed_only",
     "image": "img/pals/suzaku_aqua.png",
     "work": {
-      "Watering": 3
+      "Watering": 6
     },
     "food": 7,
     "egg": "Wetland Egg"
   },
   {
     "id": "grizzbolt",
-    "dex": 117,
+    "dex": 185,
     "name": "Grizzbolt",
     "bp": 1020,
     "element": "electric",
@@ -1863,17 +2210,17 @@
     "passiveSource": "breed_only",
     "image": "img/pals/grizzbolt.png",
     "work": {
-      "GeneratingElectricity": 3,
-      "Handiwork": 2,
-      "Lumbering": 2,
-      "Transporting": 2
+      "GeneratingElectricity": 5,
+      "Handiwork": 4,
+      "Lumbering": 3,
+      "Transporting": 5
     },
     "food": 7,
     "egg": "Electric Egg"
   },
   {
     "id": "lyleen",
-    "dex": 118,
+    "dex": 186,
     "name": "Lyleen",
     "bp": 240,
     "element": "grass",
@@ -1884,10 +2231,10 @@
     "passiveSource": "breed_only",
     "image": "img/pals/lyleen.png",
     "work": {
-      "MedicineProduction": 3,
-      "Planting": 3,
-      "Handiwork": 2,
-      "Gathering": 2
+      "Planting": 7,
+      "Handiwork": 5,
+      "Gathering": 6,
+      "MedicineProduction": 5
     },
     "food": 7,
     "egg": "Verdant Egg"
@@ -1904,16 +2251,16 @@
     "passiveSource": "breed_only",
     "image": "img/pals/lyleen_noct.png",
     "work": {
-      "MedicineProduction": 3,
-      "Planting": 3,
-      "Handiwork": 2
+      "Handiwork": 5,
+      "Gathering": 6,
+      "MedicineProduction": 7
     },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "faleris",
-    "dex": 120,
+    "dex": 188,
     "name": "Faleris",
     "bp": 500,
     "element": "fire",
@@ -1932,11 +2279,11 @@
   },
   {
     "id": "orserk",
-    "dex": 121,
+    "dex": 187,
     "name": "Orserk",
     "bp": 120,
-    "element": "electric",
-    "element2": "dragon",
+    "element": "dragon",
+    "element2": "electric",
     "isWild": true,
     "isAlpha": true,
     "alphaLocation": "No.3 Wildlife Sanctuary",
@@ -1944,16 +2291,16 @@
     "passiveSource": "breed_only",
     "image": "img/pals/orserk.png",
     "work": {
-      "GeneratingElectricity": 4,
-      "Handiwork": 2,
-      "Transporting": 3
+      "GeneratingElectricity": 8,
+      "Handiwork": 3,
+      "Transporting": 4
     },
     "food": 7,
     "egg": "Electric Egg"
   },
   {
     "id": "shadowbeak",
-    "dex": 122,
+    "dex": 189,
     "name": "Shadowbeak",
     "bp": 550,
     "element": "dark",
@@ -1964,15 +2311,14 @@
     "passiveSource": "breed_only",
     "image": "img/pals/shadowbeak.png",
     "work": {
-      "Gathering": 2,
-      "Mining": 2
+      "Gathering": 2
     },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "paladius",
-    "dex": 123,
+    "dex": 198,
     "name": "Paladius",
     "bp": 180,
     "element": "neutral",
@@ -1985,16 +2331,15 @@
     "passiveSource": "alpha",
     "image": "img/pals/paladius.png",
     "work": {
-      "Mining": 3,
-      "Lumbering": 2,
-      "Transporting": 2
+      "Lumbering": 6,
+      "Mining": 6
     },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "necromus",
-    "dex": 124,
+    "dex": 199,
     "name": "Necromus",
     "bp": 190,
     "element": "dark",
@@ -2007,16 +2352,15 @@
     "passiveSource": "alpha",
     "image": "img/pals/necromus.png",
     "work": {
-      "Mining": 3,
-      "Lumbering": 2,
-      "Transporting": 2
+      "Lumbering": 6,
+      "Mining": 6
     },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "frostallion",
-    "dex": 125,
+    "dex": 200,
     "name": "Frostallion",
     "bp": 150,
     "element": "ice",
@@ -2029,8 +2373,7 @@
     "passiveSource": "alpha",
     "image": "img/pals/frostallion.png",
     "work": {
-      "Cooling": 4,
-      "Lumbering": 2
+      "Cooling": 7
     },
     "food": 7,
     "egg": "Frozen Egg"
@@ -2047,15 +2390,14 @@
     "passiveSource": "breed_only",
     "image": "img/pals/frostallion_noct.png",
     "work": {
-      "Kindling": 4,
-      "Lumbering": 2
+      "Gathering": 7
     },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "jetragon",
-    "dex": 127,
+    "dex": 202,
     "name": "Jetragon",
     "bp": 70,
     "element": "dragon",
@@ -2069,15 +2411,14 @@
     "passiveSource": "alpha",
     "image": "img/pals/jetragon.png",
     "work": {
-      "Kindling": 3,
-      "Mining": 3
+      "Gathering": 8
     },
     "food": 7,
     "egg": "Dragon Egg"
   },
   {
     "id": "beakon",
-    "dex": 128,
+    "dex": 96,
     "name": "Beakon",
     "bp": 1690,
     "element": "electric",
@@ -2088,15 +2429,16 @@
     "passiveSource": "breed_only",
     "image": "img/pals/beakon.png",
     "work": {
-      "GeneratingElectricity": 2,
-      "Gathering": 3
+      "GeneratingElectricity": 4,
+      "Gathering": 2,
+      "Transporting": 5
     },
     "food": 7,
     "egg": "Electric Egg"
   },
   {
     "id": "ragnahawk",
-    "dex": 129,
+    "dex": 104,
     "name": "Ragnahawk",
     "bp": 1050,
     "element": "fire",
@@ -2107,15 +2449,15 @@
     "passiveSource": "breed_only",
     "image": "img/pals/ragnahawk.png",
     "work": {
-      "Kindling": 3,
-      "Lumbering": 2
+      "Kindling": 4,
+      "Transporting": 5
     },
     "food": 7,
     "egg": "Scorching Egg"
   },
   {
     "id": "vanwyrm",
-    "dex": 130,
+    "dex": 64,
     "name": "Vanwyrm",
     "bp": 1650,
     "element": "fire",
@@ -2125,7 +2467,10 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/vanwyrm.png",
-    "work": {},
+    "work": {
+      "Kindling": 2,
+      "Transporting": 3
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
@@ -2141,13 +2486,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/vanwyrm_cryst.png",
-    "work": {},
+    "work": {
+      "Cooling": 2,
+      "Transporting": 3
+    },
     "food": 7,
     "egg": "Frozen Egg"
   },
   {
     "id": "bushi",
-    "dex": 132,
+    "dex": 85,
     "name": "Bushi",
     "bp": 1560,
     "element": "fire",
@@ -2157,13 +2505,19 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/bushi.png",
-    "work": {},
+    "work": {
+      "Kindling": 2,
+      "Handiwork": 2,
+      "Gathering": 1,
+      "Lumbering": 3,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
   {
     "id": "katress",
-    "dex": 133,
+    "dex": 79,
     "name": "Katress",
     "bp": 2040,
     "element": "dark",
@@ -2173,13 +2527,17 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/katress.png",
-    "work": {},
+    "work": {
+      "Handiwork": 3,
+      "MedicineProduction": 3,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "wixen",
-    "dex": 134,
+    "dex": 78,
     "name": "Wixen",
     "bp": 2080,
     "element": "fire",
@@ -2188,13 +2546,17 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/wixen.png",
-    "work": {},
+    "work": {
+      "Kindling": 3,
+      "Handiwork": 3,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
   {
     "id": "tombat",
-    "dex": 135,
+    "dex": 52,
     "name": "Tombat",
     "bp": 2340,
     "element": "dark",
@@ -2203,28 +2565,37 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/tombat.png",
-    "work": {},
+    "work": {
+      "Gathering": 2,
+      "Mining": 3,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "lovander",
-    "dex": 136,
+    "dex": 69,
     "name": "Lovander",
     "bp": 2090,
-    "element": "neutral",
+    "element": "dark",
     "isWild": true,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/lovander.png",
-    "work": {},
+    "work": {
+      "Handiwork": 3,
+      "Mining": 2,
+      "MedicineProduction": 3,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "flambelle",
-    "dex": 137,
+    "dex": 25,
     "name": "Flambelle",
     "bp": 2700,
     "element": "fire",
@@ -2233,13 +2604,18 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/flambelle.png",
-    "work": {},
+    "work": {
+      "Kindling": 1,
+      "Handiwork": 1,
+      "Transporting": 1,
+      "Farming": 1
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
   {
     "id": "digtoise",
-    "dex": 138,
+    "dex": 107,
     "name": "Digtoise",
     "bp": 1550,
     "element": "ground",
@@ -2248,7 +2624,9 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/digtoise.png",
-    "work": {},
+    "work": {
+      "Mining": 4
+    },
     "food": 7,
     "egg": "Rocky Egg"
   },
@@ -2257,20 +2635,24 @@
     "dex": 139,
     "name": "Selyne",
     "bp": 360,
-    "element": "neutral",
-    "element2": "dark",
+    "element": "dark",
+    "element2": "neutral",
     "isWild": true,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/selyne.png",
-    "work": {},
+    "work": {
+      "Handiwork": 1,
+      "MedicineProduction": 6,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "knocklem",
-    "dex": 140,
+    "dex": 159,
     "name": "Knocklem",
     "bp": 260,
     "element": "ground",
@@ -2279,13 +2661,17 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/knocklem.png",
-    "work": {},
+    "work": {
+      "Gathering": 3,
+      "Mining": 4,
+      "Transporting": 4
+    },
     "food": 7,
     "egg": "Rocky Egg"
   },
   {
     "id": "yakumo",
-    "dex": 141,
+    "dex": 127,
     "name": "Yakumo",
     "bp": 2230,
     "element": "neutral",
@@ -2294,13 +2680,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/yakumo.png",
-    "work": {},
+    "work": {
+      "Gathering": 2
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "croajiro",
-    "dex": 142,
+    "dex": 9,
     "name": "Croajiro",
     "bp": 2600,
     "element": "water",
@@ -2309,13 +2697,18 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/croajiro.png",
-    "work": {},
+    "work": {
+      "Watering": 1,
+      "Handiwork": 1,
+      "Gathering": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Wetland Egg"
   },
   {
     "id": "shroomer",
-    "dex": 143,
+    "dex": 118,
     "name": "Shroomer",
     "bp": 1520,
     "element": "grass",
@@ -2324,7 +2717,13 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/shroomer.png",
-    "work": {},
+    "work": {
+      "Planting": 3,
+      "Handiwork": 2,
+      "Gathering": 3,
+      "Lumbering": 2,
+      "Farming": 3
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
@@ -2333,19 +2732,25 @@
     "dex": 144,
     "name": "Shroomer Noct",
     "bp": 1450,
-    "element": "dark",
+    "element": "grass",
     "isWild": true,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/shroomer_noct.png",
-    "work": {},
+    "work": {
+      "Planting": 3,
+      "Handiwork": 3,
+      "Gathering": 3,
+      "Lumbering": 2
+    },
     "food": 7,
-    "egg": "Dark Egg"
+    "egg": "Dark Egg",
+    "element2": "dark"
   },
   {
     "id": "kikit",
-    "dex": 145,
+    "dex": 126,
     "name": "Kikit",
     "bp": 2310,
     "element": "ground",
@@ -2354,13 +2759,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/kikit.png",
-    "work": {},
+    "work": {
+      "Mining": 1
+    },
     "food": 7,
     "egg": "Rocky Egg"
   },
   {
     "id": "sootseer",
-    "dex": 146,
+    "dex": 135,
     "name": "Sootseer",
     "bp": 980,
     "element": "dark",
@@ -2370,7 +2777,13 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/sootseer.png",
-    "work": {},
+    "work": {
+      "Kindling": 3,
+      "Handiwork": 3,
+      "Gathering": 2,
+      "Mining": 3,
+      "Farming": 2
+    },
     "food": 7,
     "egg": "Dark Egg"
   },
@@ -2379,20 +2792,26 @@
     "dex": 147,
     "name": "Prunelia",
     "bp": 1390,
-    "element": "dark",
-    "element2": "grass",
+    "element": "grass",
+    "element2": "dark",
     "isWild": true,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/prunelia.png",
-    "work": {},
+    "work": {
+      "Planting": 3,
+      "Handiwork": 1,
+      "Gathering": 2,
+      "MedicineProduction": 3,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "dogen",
-    "dex": 148,
+    "dex": 155,
     "name": "Dogen",
     "bp": 1460,
     "element": "neutral",
@@ -2401,13 +2820,19 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/dogen.png",
-    "work": {},
+    "work": {
+      "Handiwork": 4,
+      "Gathering": 3,
+      "Lumbering": 3,
+      "MedicineProduction": 2,
+      "Transporting": 3
+    },
     "food": 7,
     "egg": "Common Egg"
   },
   {
     "id": "lullu",
-    "dex": 149,
+    "dex": 125,
     "name": "Lullu",
     "bp": 1990,
     "element": "grass",
@@ -2416,7 +2841,12 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/lullu.png",
-    "work": {},
+    "work": {
+      "Planting": 3,
+      "Handiwork": 3,
+      "Gathering": 2,
+      "MedicineProduction": 3
+    },
     "food": 7,
     "egg": "Verdant Egg"
   },
@@ -2431,7 +2861,11 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/gorirat_terra.png",
-    "work": {},
+    "work": {
+      "Handiwork": 2,
+      "Mining": 3,
+      "Transporting": 3
+    },
     "food": 7,
     "egg": "Rocky Egg"
   },
@@ -2447,13 +2881,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/chillet_ignis.png",
-    "work": {},
+    "work": {
+      "Kindling": 4,
+      "Gathering": 3
+    },
     "food": 7,
     "egg": "Scorching Egg"
   },
   {
     "id": "xenogard",
-    "dex": 152,
+    "dex": 146,
     "name": "Xenogard",
     "bp": 990,
     "element": "dragon",
@@ -2462,13 +2899,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/xenogard.png",
-    "work": {},
+    "work": {
+      "Mining": 3
+    },
     "food": 7,
     "egg": "Dragon Egg"
   },
   {
     "id": "xenovader",
-    "dex": 153,
+    "dex": 145,
     "name": "Xenovader",
     "bp": 1820,
     "element": "dark",
@@ -2477,13 +2916,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/xenovader.png",
-    "work": {},
+    "work": {
+      "Lumbering": 2,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "tarantriss",
-    "dex": 154,
+    "dex": 71,
     "name": "Tarantriss",
     "bp": 1730,
     "element": "dark",
@@ -2492,13 +2934,18 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/tarantriss.png",
-    "work": {},
+    "work": {
+      "Handiwork": 3,
+      "Gathering": 3,
+      "MedicineProduction": 2,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Dark Egg"
   },
   {
     "id": "dazemu",
-    "dex": 155,
+    "dex": 123,
     "name": "Dazemu",
     "bp": 2210,
     "element": "ground",
@@ -2507,13 +2954,15 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/dazemu.png",
-    "work": {},
+    "work": {
+      "Gathering": 2
+    },
     "food": 7,
     "egg": "Rocky Egg"
   },
   {
     "id": "mimog",
-    "dex": 156,
+    "dex": 144,
     "name": "Mimog",
     "bp": 1740,
     "element": "neutral",
@@ -2522,7 +2971,10 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/mimog.png",
-    "work": {},
+    "work": {
+      "Gathering": 1,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Common Egg"
   },
@@ -2537,11 +2989,17 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/blueplatypus_fire.png",
-    "work": {},
+    "work": {
+      "Kindling": 2,
+      "Watering": 2,
+      "Handiwork": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Wetland Egg",
     "isVariant": true,
-    "alphaLocation": ""
+    "alphaLocation": "",
+    "element2": "fire"
   },
   {
     "id": "flyingmanta_thunder",
@@ -2554,11 +3012,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/flyingmanta_thunder.png",
-    "work": {},
+    "work": {
+      "Watering": 1,
+      "GeneratingElectricity": 2,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Wetland Egg",
     "isVariant": true,
-    "alphaLocation": ""
+    "alphaLocation": "",
+    "element2": "electric"
   },
   {
     "id": "kendofrog_dark",
@@ -2571,42 +3034,57 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/kendofrog_dark.png",
-    "work": {},
+    "work": {
+      "Watering": 1,
+      "Handiwork": 2,
+      "Gathering": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Wetland Egg",
     "isVariant": true,
-    "alphaLocation": ""
+    "alphaLocation": "",
+    "element2": "dark"
   },
   {
     "id": "leafmomonga",
     "dex": 10,
     "name": "Herbil",
     "bp": 2630,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/leafmomonga.png",
-    "work": {},
+    "work": {
+      "Planting": 1,
+      "Gathering": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "neutral"
   },
   {
     "id": "samuraidog",
     "dex": 13,
     "name": "Pupperai",
     "bp": 2930,
-    "element": "neutral",
+    "element": "ground",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/samuraidog.png",
-    "work": {},
+    "work": {
+      "Gathering": 1,
+      "Lumbering": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -2616,17 +3094,21 @@
     "dex": 14,
     "name": "Clovee",
     "bp": 2970,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/cloverfairy.png",
-    "work": {},
+    "work": {
+      "Planting": 1,
+      "Gathering": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "neutral"
   },
   {
     "id": "penguin_electric",
@@ -2639,11 +3121,17 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/penguin_electric.png",
-    "work": {},
+    "work": {
+      "Watering": 1,
+      "GeneratingElectricity": 2,
+      "Handiwork": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Wetland Egg",
     "isVariant": true,
-    "alphaLocation": ""
+    "alphaLocation": "",
+    "element2": "electric"
   },
   {
     "id": "captainpenguin_black",
@@ -2651,14 +3139,20 @@
     "name": "Penking Lux",
     "bp": 1850,
     "element": "water",
-    "element2": "ice",
+    "element2": "electric",
     "isWild": false,
     "isAlpha": true,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/captainpenguin_black.png",
-    "work": {},
+    "work": {
+      "Watering": 2,
+      "GeneratingElectricity": 3,
+      "Handiwork": 2,
+      "Mining": 3,
+      "Transporting": 3
+    },
     "food": 7,
     "egg": "Wetland Egg",
     "isVariant": true
@@ -2668,14 +3162,17 @@
     "dex": 21,
     "name": "Kingpaca Cryst",
     "bp": 1530,
-    "element": "neutral",
+    "element": "ice",
     "isWild": false,
     "isAlpha": true,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/kingalpaca_ice.png",
-    "work": {},
+    "work": {
+      "Gathering": 2,
+      "Cooling": 4
+    },
     "food": 7,
     "egg": "Common Egg",
     "isVariant": true
@@ -2685,13 +3182,18 @@
     "dex": 23,
     "name": "Tanzee Ignis",
     "bp": 2830,
-    "element": "grass",
+    "element": "fire",
     "isWild": false,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/monkey_fire.png",
-    "work": {},
+    "work": {
+      "Kindling": 1,
+      "Handiwork": 1,
+      "Lumbering": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Verdant Egg",
     "isVariant": true,
@@ -2702,14 +3204,16 @@
     "dex": 29,
     "name": "Foxparks Cryst",
     "bp": 2500,
-    "element": "fire",
+    "element": "ice",
     "isWild": false,
     "isAlpha": true,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/kitsunebi_ice.png",
-    "work": {},
+    "work": {
+      "Cooling": 2
+    },
     "food": 7,
     "egg": "Scorching Egg",
     "isVariant": true
@@ -2719,30 +3223,38 @@
     "dex": 30,
     "name": "Killamari Primo",
     "bp": 2540,
-    "element": "dark",
+    "element": "neutral",
     "isWild": false,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/negativeoctopus_neutral.png",
-    "work": {},
+    "work": {
+      "Watering": 1,
+      "Gathering": 1,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Dark Egg",
     "isVariant": true,
-    "alphaLocation": ""
+    "alphaLocation": "",
+    "element2": "water"
   },
   {
     "id": "berrygoat_dark",
     "dex": 34,
     "name": "Caprity Noct",
     "bp": 1940,
-    "element": "grass",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/berrygoat_dark.png",
-    "work": {},
+    "work": {
+      "Planting": 2,
+      "Farming": 1
+    },
     "food": 7,
     "egg": "Verdant Egg",
     "isVariant": true,
@@ -2753,14 +3265,18 @@
     "dex": 37,
     "name": "Turtacle",
     "bp": 2410,
-    "element": "neutral",
+    "element": "water",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/tentacleturtle.png",
-    "work": {},
+    "work": {
+      "Watering": 2,
+      "Mining": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -2770,30 +3286,37 @@
     "dex": 37,
     "name": "Turtacle Terra",
     "bp": 1330,
-    "element": "neutral",
+    "element": "water",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/tentacleturtle_ground.png",
-    "work": {},
+    "work": {
+      "Watering": 2,
+      "Mining": 3,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "ground"
   },
   {
     "id": "sweetssheep_ground",
     "dex": 39,
     "name": "Woolipop Terra",
     "bp": 2030,
-    "element": "neutral",
+    "element": "ground",
     "isWild": false,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/sweetssheep_ground.png",
-    "work": {},
+    "work": {
+      "Farming": 1
+    },
     "food": 7,
     "egg": "Common Egg",
     "isVariant": true,
@@ -2804,7 +3327,7 @@
     "dex": 41,
     "name": "Azurobe Cryst",
     "bp": 1220,
-    "element": "water",
+    "element": "ice",
     "element2": "dragon",
     "isWild": false,
     "isAlpha": true,
@@ -2812,7 +3335,9 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/bluedragon_ice.png",
-    "work": {},
+    "work": {
+      "Cooling": 4
+    },
     "food": 7,
     "egg": "Wetland Egg",
     "isVariant": true
@@ -2829,7 +3354,11 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/pinkrabbit.png",
-    "work": {},
+    "work": {
+      "Handiwork": 1,
+      "Gathering": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -2839,14 +3368,19 @@
     "dex": 44,
     "name": "Ribbuny Botan",
     "bp": 2460,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/pinkrabbit_grass.png",
-    "work": {},
+    "work": {
+      "Planting": 2,
+      "Handiwork": 2,
+      "Gathering": 2,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": true
@@ -2856,14 +3390,18 @@
     "dex": 45,
     "name": "Jelliette",
     "bp": 2650,
-    "element": "neutral",
+    "element": "water",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/jellyfishfairy.png",
-    "work": {},
+    "work": {
+      "Watering": 2,
+      "Handiwork": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -2873,31 +3411,41 @@
     "dex": 46,
     "name": "Jellroy",
     "bp": 2590,
-    "element": "neutral",
+    "element": "water",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/jellyfishghost.png",
-    "work": {},
+    "work": {
+      "Watering": 2,
+      "Handiwork": 1,
+      "MedicineProduction": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "dark"
   },
   {
     "id": "clionetwins",
     "dex": 47,
     "name": "Amione",
     "bp": 2520,
-    "element": "neutral",
+    "element": "water",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/clionetwins.png",
-    "work": {},
+    "work": {
+      "Watering": 1,
+      "Handiwork": 2,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -2907,48 +3455,63 @@
     "dex": 48,
     "name": "Gloopie",
     "bp": 2530,
-    "element": "neutral",
+    "element": "water",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/octopusgirl.png",
-    "work": {},
+    "work": {
+      "Watering": 2,
+      "Handiwork": 2,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "dark"
   },
   {
     "id": "octopusgirl_neutral",
     "dex": 48,
     "name": "Gloopie Primo",
     "bp": 1630,
-    "element": "neutral",
+    "element": "water",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/octopusgirl_neutral.png",
-    "work": {},
+    "work": {
+      "Watering": 2,
+      "Handiwork": 2,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "neutral"
   },
   {
     "id": "ghostblackcat",
     "dex": 50,
     "name": "Wispaw",
     "bp": 2250,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/ghostblackcat.png",
-    "work": {},
+    "work": {
+      "Handiwork": 2,
+      "Lumbering": 1,
+      "MedicineProduction": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -2958,14 +3521,17 @@
     "dex": 54,
     "name": "Univolt Cryst",
     "bp": 540,
-    "element": "electric",
+    "element": "ice",
     "isWild": false,
     "isAlpha": true,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/kirin_ice.png",
-    "work": {},
+    "work": {
+      "Lumbering": 3,
+      "Cooling": 6
+    },
     "food": 7,
     "egg": "Electric Egg",
     "isVariant": true
@@ -2975,16 +3541,15 @@
     "dex": 56,
     "name": "Loupmoon Cryst",
     "bp": 1290,
-    "element": "dark",
+    "element": "ice",
     "isWild": false,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/werewolf_ice.png",
     "work": {
-      "Handiwork": 2,
-      "Gathering": 2,
-      "Transporting": 2
+      "Handiwork": 4,
+      "Cooling": 4
     },
     "food": 7,
     "egg": "Dark Egg",
@@ -2996,14 +3561,17 @@
     "dex": 59,
     "name": "Muffly",
     "bp": 2480,
-    "element": "neutral",
+    "element": "ice",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/fluffybird.png",
-    "work": {},
+    "work": {
+      "Cooling": 2,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3013,14 +3581,17 @@
     "dex": 62,
     "name": "Puffolt",
     "bp": 2360,
-    "element": "neutral",
+    "element": "electric",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/elecpomeranian.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 2,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3030,34 +3601,42 @@
     "dex": 72,
     "name": "Polapup",
     "bp": 1660,
-    "element": "neutral",
+    "element": "ice",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/iceseal.png",
-    "work": {},
+    "work": {
+      "Watering": 3,
+      "Cooling": 4
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "water"
   },
   {
     "id": "iceseal_ground",
     "dex": 72,
     "name": "Polapup Terra",
     "bp": 1100,
-    "element": "neutral",
+    "element": "ice",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/iceseal_ground.png",
-    "work": {},
+    "work": {
+      "Mining": 4,
+      "Cooling": 4
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "ground"
   },
   {
     "id": "foxmage_dark",
@@ -3070,11 +3649,16 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/foxmage_dark.png",
-    "work": {},
+    "work": {
+      "Kindling": 4,
+      "Handiwork": 4,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Scorching Egg",
     "isVariant": true,
-    "alphaLocation": ""
+    "alphaLocation": "",
+    "element2": "dark"
   },
   {
     "id": "catmage_fire",
@@ -3088,24 +3672,36 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/catmage_fire.png",
-    "work": {},
+    "work": {
+      "Kindling": 3,
+      "Handiwork": 3,
+      "MedicineProduction": 3,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Dark Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "fire"
   },
   {
     "id": "grassminotaur",
     "dex": 81,
     "name": "Elgrove",
     "bp": 2020,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/grassminotaur.png",
-    "work": {},
+    "work": {
+      "Planting": 3,
+      "Gathering": 2,
+      "Lumbering": 3,
+      "Mining": 2,
+      "Transporting": 3
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3115,14 +3711,19 @@
     "dex": 81,
     "name": "Elgrove Cryst",
     "bp": 440,
-    "element": "neutral",
+    "element": "ice",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/grassminotaur_ice.png",
-    "work": {},
+    "work": {
+      "Lumbering": 3,
+      "Mining": 3,
+      "Cooling": 5,
+      "Transporting": 3
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": true
@@ -3132,14 +3733,17 @@
     "dex": 83,
     "name": "Fenglope Lux",
     "bp": 900,
-    "element": "neutral",
+    "element": "electric",
     "isWild": false,
     "isAlpha": true,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/fengyundeeper_electric.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 5,
+      "Lumbering": 4
+    },
     "food": 7,
     "egg": "Common Egg",
     "isVariant": true
@@ -3156,41 +3760,56 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/ronin_dark.png",
-    "work": {},
+    "work": {
+      "Kindling": 2,
+      "Handiwork": 2,
+      "Gathering": 1,
+      "Lumbering": 5,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Scorching Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "dark"
   },
   {
     "id": "icecrocodile",
     "dex": 86,
     "name": "Munchill",
     "bp": 2130,
-    "element": "neutral",
+    "element": "ice",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/icecrocodile.png",
-    "work": {},
+    "work": {
+      "Watering": 2,
+      "Cooling": 3,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "water"
   },
   {
     "id": "stuffedshark",
     "dex": 88,
     "name": "Finsider",
     "bp": 2450,
-    "element": "neutral",
+    "element": "water",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/stuffedshark.png",
-    "work": {},
+    "work": {
+      "Watering": 2,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3200,17 +3819,22 @@
     "dex": 88,
     "name": "Finsider Ignis",
     "bp": 2240,
-    "element": "neutral",
+    "element": "water",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/stuffedshark_fire.png",
-    "work": {},
+    "work": {
+      "Kindling": 2,
+      "Watering": 2,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "fire"
   },
   {
     "id": "flowerdoll_fire",
@@ -3224,27 +3848,36 @@
     "passiveSource": "breed_only",
     "image": "img/pals/flowerdoll_fire.png",
     "work": {
-      "Planting": 3,
-      "MedicineProduction": 2
+      "Kindling": 4,
+      "Handiwork": 3,
+      "Gathering": 3,
+      "MedicineProduction": 4,
+      "Transporting": 2
     },
     "food": 7,
     "egg": "Verdant Egg",
     "isVariant": true,
-    "alphaLocation": ""
+    "alphaLocation": "",
+    "element2": "fire"
   },
   {
     "id": "pandagirl",
     "dex": 90,
     "name": "Leafan",
     "bp": 1410,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/pandagirl.png",
-    "work": {},
+    "work": {
+      "Planting": 3,
+      "Handiwork": 3,
+      "Gathering": 3,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3254,24 +3887,30 @@
     "dex": 92,
     "name": "Dazzi Noct",
     "bp": 1910,
-    "element": "electric",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/raijindaughter_water.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 1,
+      "Handiwork": 1,
+      "MedicineProduction": 1,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Electric Egg",
     "isVariant": true,
-    "alphaLocation": ""
+    "alphaLocation": "",
+    "element2": "electric"
   },
   {
     "id": "thunderbird_ice",
     "dex": 96,
     "name": "Beakon Cryst",
     "bp": 580,
-    "element": "electric",
+    "element": "ice",
     "isWild": false,
     "isAlpha": true,
     "alphaLocation": "",
@@ -3279,8 +3918,9 @@
     "passiveSource": "breed_only",
     "image": "img/pals/thunderbird_ice.png",
     "work": {
-      "GeneratingElectricity": 2,
-      "Gathering": 3
+      "Gathering": 2,
+      "Cooling": 5,
+      "Transporting": 5
     },
     "food": 7,
     "egg": "Electric Egg",
@@ -3291,47 +3931,58 @@
     "dex": 97,
     "name": "Ghangler",
     "bp": 880,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/ghostanglerfish.png",
-    "work": {},
+    "work": {
+      "Watering": 5,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "water"
   },
   {
     "id": "ghostanglerfish_fire",
     "dex": 97,
     "name": "Ghangler Ignis",
     "bp": 720,
-    "element": "neutral",
+    "element": "fire",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/ghostanglerfish_fire.png",
-    "work": {},
+    "work": {
+      "Kindling": 5,
+      "Watering": 5,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "water"
   },
   {
     "id": "thunderdog_ice",
     "dex": 98,
     "name": "Rayhound Cryst",
     "bp": 1600,
-    "element": "electric",
+    "element": "ice",
     "isWild": false,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/thunderdog_ice.png",
-    "work": {},
+    "work": {
+      "Cooling": 3
+    },
     "food": 7,
     "egg": "Electric Egg",
     "isVariant": true,
@@ -3342,7 +3993,7 @@
     "dex": 99,
     "name": "Menasting Terra",
     "bp": 640,
-    "element": "dark",
+    "element": "ground",
     "element2": "ground",
     "isWild": false,
     "isAlpha": true,
@@ -3351,8 +4002,8 @@
     "passiveSource": "breed_only",
     "image": "img/pals/darkscorpion_ground.png",
     "work": {
-      "Mining": 2,
-      "Lumbering": 3
+      "Lumbering": 3,
+      "Mining": 6
     },
     "food": 7,
     "egg": "Dark Egg",
@@ -3363,14 +4014,18 @@
     "dex": 100,
     "name": "Needoll",
     "bp": 2420,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/cactusdoll.png",
-    "work": {},
+    "work": {
+      "Planting": 3,
+      "Gathering": 3,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3380,65 +4035,82 @@
     "dex": 100,
     "name": "Needoll Noct",
     "bp": 1580,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/cactusdoll_dark.png",
-    "work": {},
+    "work": {
+      "Planting": 3,
+      "Gathering": 3,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "grass"
   },
   {
     "id": "volcanodragon",
     "dex": 105,
     "name": "Moldron",
     "bp": 750,
-    "element": "neutral",
+    "element": "fire",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/volcanodragon.png",
-    "work": {},
+    "work": {
+      "Kindling": 5,
+      "Mining": 5
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "ground"
   },
   {
     "id": "volcanodragon_ice",
     "dex": 105,
     "name": "Moldron Cryst",
     "bp": 380,
-    "element": "neutral",
+    "element": "ice",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/volcanodragon_ice.png",
-    "work": {},
+    "work": {
+      "Mining": 5,
+      "Cooling": 5
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "ground"
   },
   {
     "id": "tropicalostrich",
     "dex": 106,
     "name": "Palumba",
     "bp": 1240,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/tropicalostrich.png",
-    "work": {},
+    "work": {
+      "Planting": 4,
+      "Gathering": 4,
+      "Mining": 5
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3454,41 +4126,54 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/lazycatfish_gold.png",
-    "work": {},
+    "work": {
+      "Watering": 2,
+      "Mining": 2,
+      "Transporting": 1,
+      "Farming": 4
+    },
     "food": 7,
     "egg": "Rocky Egg",
     "isVariant": true,
-    "alphaLocation": ""
+    "alphaLocation": "",
+    "element2": "water"
   },
   {
     "id": "plesiosaur",
     "dex": 110,
     "name": "Braloha",
     "bp": 1030,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/plesiosaur.png",
-    "work": {},
+    "work": {
+      "Planting": 5,
+      "Gathering": 5,
+      "Mining": 3
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "ground"
   },
   {
     "id": "amaterasuwolf_dark",
     "dex": 111,
     "name": "Kitsun Noct",
     "bp": 800,
-    "element": "fire",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/amaterasuwolf_dark.png",
-    "work": {},
+    "work": {
+      "Kindling": 4
+    },
     "food": 7,
     "egg": "Scorching Egg",
     "isVariant": true,
@@ -3507,7 +4192,11 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/herculesbeetle_ground.png",
-    "work": {},
+    "work": {
+      "Handiwork": 2,
+      "Mining": 5,
+      "Transporting": 5
+    },
     "food": 7,
     "egg": "Rocky Egg",
     "isVariant": true
@@ -3517,14 +4206,17 @@
     "dex": 114,
     "name": "Frostplume",
     "bp": 860,
-    "element": "neutral",
+    "element": "ice",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/snowpeafowl.png",
-    "work": {},
+    "work": {
+      "Gathering": 2,
+      "Cooling": 4
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3534,30 +4226,39 @@
     "dex": 115,
     "name": "Majex",
     "bp": 1010,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/darkflamefox.png",
-    "work": {},
+    "work": {
+      "Kindling": 4,
+      "Handiwork": 5,
+      "MedicineProduction": 3,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "fire"
   },
   {
     "id": "whitemoth_neutral",
     "dex": 116,
     "name": "Sibelyx Primo",
     "bp": 650,
-    "element": "ice",
+    "element": "neutral",
     "isWild": false,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/whitemoth_neutral.png",
-    "work": {},
+    "work": {
+      "MedicineProduction": 3,
+      "Farming": 4
+    },
     "food": 7,
     "egg": "Frozen Egg",
     "isVariant": true,
@@ -3568,14 +4269,19 @@
     "dex": 119,
     "name": "Icelyn",
     "bp": 1260,
-    "element": "neutral",
+    "element": "ice",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/icewitch.png",
-    "work": {},
+    "work": {
+      "Handiwork": 5,
+      "MedicineProduction": 4,
+      "Cooling": 5,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3585,17 +4291,22 @@
     "dex": 120,
     "name": "Gildra",
     "bp": 1170,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/mummypal.png",
-    "work": {},
+    "work": {
+      "Handiwork": 5,
+      "MedicineProduction": 4,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "ground"
   },
   {
     "id": "skydragon_grass",
@@ -3609,24 +4320,35 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/skydragon_grass.png",
-    "work": {},
+    "work": {
+      "Planting": 5,
+      "Handiwork": 2,
+      "Gathering": 4,
+      "Mining": 3,
+      "Transporting": 4
+    },
     "food": 7,
     "egg": "Dragon Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "grass"
   },
   {
     "id": "swordcutlassfish",
     "dex": 128,
     "name": "Skutlass",
     "bp": 1420,
-    "element": "neutral",
+    "element": "water",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/swordcutlassfish.png",
-    "work": {},
+    "work": {
+      "Watering": 4,
+      "Gathering": 1,
+      "Lumbering": 4
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3636,31 +4358,39 @@
     "dex": 128,
     "name": "Skutlass Ignis",
     "bp": 1590,
-    "element": "neutral",
+    "element": "water",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/swordcutlassfish_fire.png",
-    "work": {},
+    "work": {
+      "Kindling": 3,
+      "Watering": 2,
+      "Gathering": 2,
+      "Lumbering": 3
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "fire"
   },
   {
     "id": "nightbluehorse",
     "dex": 130,
     "name": "Starryon",
     "bp": 1150,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/nightbluehorse.png",
-    "work": {},
+    "work": {
+      "Gathering": 5
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3677,7 +4407,9 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/nightbluehorse_neutral.png",
-    "work": {},
+    "work": {
+      "Gathering": 7
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": true
@@ -3687,14 +4419,16 @@
     "dex": 131,
     "name": "Pierdon",
     "bp": 1110,
-    "element": "neutral",
+    "element": "ground",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/rockbeast.png",
-    "work": {},
+    "work": {
+      "Mining": 5
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3704,14 +4438,17 @@
     "dex": 131,
     "name": "Pierdon Cryst",
     "bp": 460,
-    "element": "neutral",
+    "element": "ice",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/rockbeast_ice.png",
-    "work": {},
+    "work": {
+      "Mining": 5,
+      "Cooling": 6
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": true
@@ -3721,13 +4458,18 @@
     "dex": 132,
     "name": "Cryolinx Terra",
     "bp": 470,
-    "element": "ice",
+    "element": "ground",
     "isWild": false,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/whitetiger_ground.png",
-    "work": {},
+    "work": {
+      "Handiwork": 2,
+      "Lumbering": 6,
+      "Mining": 5,
+      "Transporting": 4
+    },
     "food": 7,
     "egg": "Frozen Egg",
     "isVariant": true,
@@ -3738,14 +4480,19 @@
     "dex": 133,
     "name": "Snugloo",
     "bp": 2390,
-    "element": "neutral",
+    "element": "ice",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/smallyeti.png",
-    "work": {},
+    "work": {
+      "Handiwork": 2,
+      "Mining": 3,
+      "Cooling": 3,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3755,14 +4502,19 @@
     "dex": 136,
     "name": "Carnibora",
     "bp": 1700,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/venusflytrap.png",
-    "work": {},
+    "work": {
+      "Planting": 6,
+      "Handiwork": 4,
+      "Gathering": 4,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3772,7 +4524,7 @@
     "dex": 137,
     "name": "Blazamut Ryu",
     "bp": 100,
-    "element": "fire",
+    "element": "dragon",
     "isWild": false,
     "isAlpha": true,
     "alphaLocation": "",
@@ -3780,60 +4532,79 @@
     "passiveSource": "breed_only",
     "image": "img/pals/kingbahamut_dragon.png",
     "work": {
-      "Kindling": 3,
-      "Mining": 4
+      "Kindling": 6,
+      "Mining": 7
     },
     "food": 7,
     "egg": "Scorching Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "fire"
   },
   {
     "id": "grassgolem",
     "dex": 138,
     "name": "Dualith",
     "bp": 510,
-    "element": "neutral",
+    "element": "ground",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/grassgolem.png",
-    "work": {},
+    "work": {
+      "Planting": 3,
+      "Gathering": 3,
+      "Lumbering": 5,
+      "Mining": 6,
+      "Transporting": 6
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "grass"
   },
   {
     "id": "grassgolem_dark",
     "dex": 138,
     "name": "Dualith Noct",
     "bp": 250,
-    "element": "neutral",
+    "element": "ground",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/grassgolem_dark.png",
-    "work": {},
+    "work": {
+      "Planting": 3,
+      "Gathering": 3,
+      "Lumbering": 5,
+      "Mining": 6,
+      "Transporting": 6
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "dark"
   },
   {
     "id": "sekhmet",
     "dex": 140,
     "name": "Sekhmet",
     "bp": 870,
-    "element": "neutral",
+    "element": "ground",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/sekhmet.png",
-    "work": {},
+    "work": {
+      "Handiwork": 6,
+      "Mining": 3,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3843,48 +4614,61 @@
     "dex": 141,
     "name": "Prixter",
     "bp": 1510,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/scorpionman.png",
-    "work": {},
+    "work": {
+      "Gathering": 2,
+      "Lumbering": 4,
+      "MedicineProduction": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "ground"
   },
   {
     "id": "scorpionman_electric",
     "dex": 141,
     "name": "Prixter Lux",
     "bp": 850,
-    "element": "neutral",
+    "element": "electric",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/scorpionman_electric.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 3,
+      "Gathering": 2,
+      "Lumbering": 4,
+      "MedicineProduction": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "ground"
   },
   {
     "id": "cubeturtle",
     "dex": 142,
     "name": "Tetroise",
     "bp": 790,
-    "element": "neutral",
+    "element": "ground",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/cubeturtle.png",
-    "work": {},
+    "work": {
+      "Mining": 4
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3901,7 +4685,9 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/cubeturtle_neutral.png",
-    "work": {},
+    "work": {
+      "Mining": 6
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": true
@@ -3911,14 +4697,19 @@
     "dex": 143,
     "name": "Nyafia",
     "bp": 1250,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/badcatgirl.png",
-    "work": {},
+    "work": {
+      "Handiwork": 4,
+      "Gathering": 4,
+      "Lumbering": 2,
+      "Transporting": 3
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3928,14 +4719,17 @@
     "dex": 148,
     "name": "Nitemary",
     "bp": 1230,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/ghostrabbit.png",
-    "work": {},
+    "work": {
+      "Handiwork": 4,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3945,14 +4739,18 @@
     "dex": 148,
     "name": "Nitemary Botan",
     "bp": 1320,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/ghostrabbit_grass.png",
-    "work": {},
+    "work": {
+      "Planting": 3,
+      "Handiwork": 4,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": true
@@ -3962,14 +4760,16 @@
     "dex": 149,
     "name": "Smokie",
     "bp": 1760,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/blackpuppy.png",
-    "work": {},
+    "work": {
+      "Gathering": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -3979,31 +4779,37 @@
     "dex": 149,
     "name": "Smokie Cryst",
     "bp": 1610,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/blackpuppy_ice.png",
-    "work": {},
+    "work": {
+      "Gathering": 2,
+      "Cooling": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "ice"
   },
   {
     "id": "mysterymask",
     "dex": 150,
     "name": "Omascul",
     "bp": 1140,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/mysterymask.png",
-    "work": {},
+    "work": {
+      "Gathering": 5
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4013,48 +4819,61 @@
     "dex": 151,
     "name": "Whalaska",
     "bp": 710,
-    "element": "neutral",
+    "element": "ice",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/icenarwhal.png",
-    "work": {},
+    "work": {
+      "Watering": 5,
+      "Cooling": 6
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "water"
   },
   {
     "id": "icenarwhal_fire",
     "dex": 151,
     "name": "Whalaska Ignis",
     "bp": 370,
-    "element": "neutral",
+    "element": "ice",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/icenarwhal_fire.png",
-    "work": {},
+    "work": {
+      "Kindling": 5,
+      "Cooling": 6
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "fire"
   },
   {
     "id": "grimgirl",
     "dex": 153,
     "name": "Splatterina",
     "bp": 780,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/grimgirl.png",
-    "work": {},
+    "work": {
+      "Handiwork": 6,
+      "Lumbering": 3,
+      "MedicineProduction": 5,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4064,14 +4883,16 @@
     "dex": 154,
     "name": "Gildane",
     "bp": 730,
-    "element": "neutral",
+    "element": "ground",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/goldenhorse.png",
-    "work": {},
+    "work": {
+      "Gathering": 5
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4081,14 +4902,17 @@
     "dex": 156,
     "name": "Bulldosu",
     "bp": 1190,
-    "element": "neutral",
+    "element": "ground",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/sumodog.png",
-    "work": {},
+    "work": {
+      "Mining": 4,
+      "Transporting": 3
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4105,7 +4929,10 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/whitedeer.png",
-    "work": {},
+    "work": {
+      "Gathering": 4,
+      "Lumbering": 7
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4115,14 +4942,17 @@
     "dex": 157,
     "name": "Celesdir Noct",
     "bp": 270,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/whitedeer_dark.png",
-    "work": {},
+    "work": {
+      "Gathering": 4,
+      "Lumbering": 8
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": true
@@ -4132,13 +4962,17 @@
     "dex": 159,
     "name": "Knocklem Ignis",
     "bp": 210,
-    "element": "ground",
+    "element": "fire",
     "isWild": false,
     "isAlpha": false,
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/winggolem_fire.png",
-    "work": {},
+    "work": {
+      "Kindling": 5,
+      "Mining": 7,
+      "Transporting": 7
+    },
     "food": 7,
     "egg": "Rocky Egg",
     "isVariant": true,
@@ -4149,14 +4983,16 @@
     "dex": 160,
     "name": "Silvegis",
     "bp": 560,
-    "element": "neutral",
+    "element": "dragon",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/whiteshielddragon.png",
-    "work": {},
+    "work": {
+      "Lumbering": 6
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4166,14 +5002,16 @@
     "dex": 161,
     "name": "Azurmane",
     "bp": 420,
-    "element": "neutral",
+    "element": "electric",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/bluethunderhorse.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 5
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4190,7 +5028,9 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/longcat.png",
-    "work": {},
+    "work": {
+      "Gathering": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4200,14 +5040,16 @@
     "dex": 163,
     "name": "Snock",
     "bp": 1780,
-    "element": "neutral",
+    "element": "electric",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/elecsnail.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 4
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4217,31 +5059,37 @@
     "dex": 163,
     "name": "Snock Lux",
     "bp": 1500,
-    "element": "neutral",
+    "element": "electric",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/elecsnail_ground.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 4
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "ground"
   },
   {
     "id": "dandeliongirl",
     "dex": 164,
     "name": "Souffline",
     "bp": 2000,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/dandeliongirl.png",
-    "work": {},
+    "work": {
+      "Planting": 2,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4251,14 +5099,19 @@
     "dex": 165,
     "name": "Lapiron",
     "bp": 1680,
-    "element": "neutral",
+    "element": "ground",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/brownrabbit.png",
-    "work": {},
+    "work": {
+      "Handiwork": 3,
+      "Gathering": 4,
+      "Mining": 2,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4268,14 +5121,17 @@
     "dex": 166,
     "name": "Hoodle",
     "bp": 1770,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/hoodghost.png",
-    "work": {},
+    "work": {
+      "Handiwork": 1,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4285,14 +5141,16 @@
     "dex": 167,
     "name": "Slowatt",
     "bp": 1750,
-    "element": "neutral",
+    "element": "electric",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/eleclizard.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 3
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4302,14 +5160,18 @@
     "dex": 168,
     "name": "Bakemi",
     "bp": 1540,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/onighostgirl.png",
-    "work": {},
+    "work": {
+      "Handiwork": 3,
+      "MedicineProduction": 4,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4319,14 +5181,16 @@
     "dex": 169,
     "name": "Solmora",
     "bp": 1370,
-    "element": "neutral",
+    "element": "water",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/kingsunfish.png",
-    "work": {},
+    "work": {
+      "Watering": 4
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4336,17 +5200,21 @@
     "dex": 169,
     "name": "Solmora Lux",
     "bp": 1000,
-    "element": "neutral",
+    "element": "water",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/kingsunfish_thunder.png",
-    "work": {},
+    "work": {
+      "Watering": 4,
+      "GeneratingElectricity": 6
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "electric"
   },
   {
     "id": "sleeverabbit",
@@ -4360,7 +5228,10 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/sleeverabbit.png",
-    "work": {},
+    "work": {
+      "Handiwork": 6,
+      "Gathering": 5
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4370,48 +5241,59 @@
     "dex": 171,
     "name": "Eidrolon",
     "bp": 300,
-    "element": "neutral",
+    "element": "dragon",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/ghostdragon.png",
-    "work": {},
+    "work": {
+      "Transporting": 6
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "dark"
   },
   {
     "id": "ghostdragon_fire",
     "dex": 171,
     "name": "Eidrolon Ignis",
     "bp": 140,
-    "element": "neutral",
+    "element": "dragon",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/ghostdragon_fire.png",
-    "work": {},
+    "work": {
+      "Kindling": 6,
+      "Transporting": 6
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": true
+    "isVariant": true,
+    "element2": "fire"
   },
   {
     "id": "thunderfluffybird",
     "dex": 172,
     "name": "Dynamoff",
     "bp": 1400,
-    "element": "neutral",
+    "element": "electric",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/thunderfluffybird.png",
-    "work": {},
+    "work": {
+      "GeneratingElectricity": 6,
+      "Gathering": 3,
+      "Transporting": 3
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4421,14 +5303,17 @@
     "dex": 173,
     "name": "Tropicaw",
     "bp": 1350,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/redflowerbird.png",
-    "work": {},
+    "work": {
+      "Planting": 5,
+      "Gathering": 5
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4438,14 +5323,18 @@
     "dex": 174,
     "name": "Flaracle",
     "bp": 390,
-    "element": "neutral",
+    "element": "fire",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/foxexorcist.png",
-    "work": {},
+    "work": {
+      "Kindling": 7,
+      "Handiwork": 6,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4455,31 +5344,40 @@
     "dex": 175,
     "name": "Ophydia",
     "bp": 230,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/lotusdragon.png",
-    "work": {},
+    "work": {
+      "Watering": 5,
+      "Planting": 7
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "water"
   },
   {
     "id": "clownrabbit",
     "dex": 176,
     "name": "Dupin",
     "bp": 520,
-    "element": "neutral",
+    "element": "fire",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/clownrabbit.png",
-    "work": {},
+    "work": {
+      "Kindling": 7,
+      "Handiwork": 5,
+      "MedicineProduction": 4,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4489,14 +5387,17 @@
     "dex": 177,
     "name": "Roujay",
     "bp": 530,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/thiefbird.png",
-    "work": {},
+    "work": {
+      "Gathering": 5,
+      "Transporting": 5
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4506,14 +5407,19 @@
     "dex": 178,
     "name": "Venusa",
     "bp": 970,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/snakegirl.png",
-    "work": {},
+    "work": {
+      "Handiwork": 6,
+      "Gathering": 6,
+      "MedicineProduction": 5,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4523,14 +5429,19 @@
     "dex": 179,
     "name": "Mycora",
     "bp": 760,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/mushroomlady.png",
-    "work": {},
+    "work": {
+      "Planting": 6,
+      "Handiwork": 4,
+      "Gathering": 4,
+      "MedicineProduction": 6
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4540,31 +5451,40 @@
     "dex": 180,
     "name": "Loomen",
     "bp": 890,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/lanternbutler.png",
-    "work": {},
+    "work": {
+      "Kindling": 4,
+      "Handiwork": 4,
+      "MedicineProduction": 4
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "fire"
   },
   {
     "id": "moonchild",
     "dex": 181,
     "name": "Wistella",
     "bp": 1180,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/moonchild.png",
-    "work": {},
+    "work": {
+      "Handiwork": 6,
+      "MedicineProduction": 6,
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4574,31 +5494,41 @@
     "dex": 182,
     "name": "Solenne",
     "bp": 280,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/monochromequeen.png",
-    "work": {},
+    "work": {
+      "Handiwork": 8,
+      "Gathering": 4,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "neutral"
   },
   {
     "id": "kabukiman",
     "dex": 183,
     "name": "Renjishi",
     "bp": 290,
-    "element": "neutral",
+    "element": "fire",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/kabukiman.png",
-    "work": {},
+    "work": {
+      "Kindling": 8,
+      "Handiwork": 6,
+      "Gathering": 5,
+      "Transporting": 5
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4608,24 +5538,27 @@
     "dex": 184,
     "name": "Aegidron",
     "bp": 30,
-    "element": "neutral",
+    "element": "dragon",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/domearmordragon.png",
-    "work": {},
+    "work": {
+      "Mining": 8
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "ground"
   },
   {
     "id": "horus_water",
     "dex": 188,
     "name": "Faleris Aqua",
     "bp": 450,
-    "element": "fire",
+    "element": "water",
     "isWild": false,
     "isAlpha": true,
     "alphaLocation": "",
@@ -4633,8 +5566,8 @@
     "passiveSource": "breed_only",
     "image": "img/pals/horus_water.png",
     "work": {
-      "Kindling": 3,
-      "Transporting": 3
+      "Watering": 6,
+      "Transporting": 5
     },
     "food": 7,
     "egg": "Scorching Egg",
@@ -4645,14 +5578,18 @@
     "dex": 191,
     "name": "Bastigor",
     "bp": 50,
-    "element": "neutral",
+    "element": "ice",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/snowtigerbeastman.png",
-    "work": {},
+    "work": {
+      "Lumbering": 6,
+      "Mining": 5,
+      "Cooling": 8
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4662,31 +5599,41 @@
     "dex": 192,
     "name": "Shaolong",
     "bp": 40,
-    "element": "neutral",
+    "element": "dragon",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/blueskydragon.png",
-    "work": {},
+    "work": {
+      "Watering": 8,
+      "Gathering": 5
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "water"
   },
   {
     "id": "mothman",
     "dex": 193,
     "name": "Silvance",
     "bp": 80,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/mothman.png",
-    "work": {},
+    "work": {
+      "Planting": 6,
+      "Handiwork": 6,
+      "Gathering": 4,
+      "MedicineProduction": 8,
+      "Transporting": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4696,31 +5643,42 @@
     "dex": 194,
     "name": "Dandilord",
     "bp": 60,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/flowerprince.png",
-    "work": {},
+    "work": {
+      "Planting": 8,
+      "Handiwork": 6,
+      "Gathering": 5,
+      "MedicineProduction": 6,
+      "Transporting": 3
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "dark"
   },
   {
     "id": "nightlady",
     "dex": 195,
     "name": "Bellanoir",
     "bp": 620,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/nightlady.png",
-    "work": {},
+    "work": {
+      "Handiwork": 5,
+      "MedicineProduction": 5,
+      "Transporting": 4
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4730,14 +5688,18 @@
     "dex": 195,
     "name": "Bellanoir Libero",
     "bp": 130,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/nightlady_dark.png",
-    "work": {},
+    "work": {
+      "Handiwork": 6,
+      "MedicineProduction": 7,
+      "Transporting": 4
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": true
@@ -4747,17 +5709,20 @@
     "dex": 196,
     "name": "Xenolord",
     "bp": 400,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/darkmechadragon.png",
-    "work": {},
+    "work": {
+      "Gathering": 2
+    },
     "food": 7,
     "egg": "Unknown Egg",
-    "isVariant": false
+    "isVariant": false,
+    "element2": "dragon"
   },
   {
     "id": "legenddeer",
@@ -4771,7 +5736,10 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/legenddeer.png",
-    "work": {},
+    "work": {
+      "Gathering": 7,
+      "Lumbering": 7
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4781,14 +5749,16 @@
     "dex": 201,
     "name": "Neptilius",
     "bp": 160,
-    "element": "neutral",
+    "element": "water",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/poseidonorca.png",
-    "work": {},
+    "work": {
+      "Watering": 7
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4798,7 +5768,7 @@
     "dex": 203,
     "name": "Panthalus",
     "bp": 20,
-    "element": "neutral",
+    "element": "water",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
@@ -4832,14 +5802,16 @@
     "dex": 10000,
     "name": "Eye of Cthulhu",
     "bp": 3100,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/yakushimaboss001.png",
-    "work": {},
+    "work": {
+      "Transporting": 4
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4849,14 +5821,16 @@
     "dex": 10001,
     "name": "Demon Eye",
     "bp": 3100,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/yakushimaboss001_small.png",
-    "work": {},
+    "work": {
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4866,14 +5840,16 @@
     "dex": 10002,
     "name": "Green Slime",
     "bp": 3100,
-    "element": "neutral",
+    "element": "grass",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/yakushimamonster001.png",
-    "work": {},
+    "work": {
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4883,14 +5859,16 @@
     "dex": 10003,
     "name": "Blue Slime",
     "bp": 3100,
-    "element": "neutral",
+    "element": "water",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/yakushimamonster001_blue.png",
-    "work": {},
+    "work": {
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4907,7 +5885,9 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/yakushimamonster001_pink.png",
-    "work": {},
+    "work": {
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4917,14 +5897,16 @@
     "dex": 10005,
     "name": "Purple Slime",
     "bp": 3100,
-    "element": "neutral",
+    "element": "dark",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/yakushimamonster001_purple.png",
-    "work": {},
+    "work": {
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4941,7 +5923,9 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/yakushimamonster001_rainbow.png",
-    "work": {},
+    "work": {
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4951,14 +5935,16 @@
     "dex": 10007,
     "name": "Red Slime",
     "bp": 3100,
-    "element": "neutral",
+    "element": "fire",
     "isWild": false,
     "isAlpha": false,
     "alphaLocation": "",
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/yakushimamonster001_red.png",
-    "work": {},
+    "work": {
+      "Transporting": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4975,7 +5961,9 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/yakushimamonster002.png",
-    "work": {},
+    "work": {
+      "Lumbering": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -4992,7 +5980,9 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/yakushimamonster003.png",
-    "work": {},
+    "work": {
+      "Gathering": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
@@ -5009,7 +5999,9 @@
     "passives": [],
     "passiveSource": "breed_only",
     "image": "img/pals/yakushimamonster003_purple.png",
-    "work": {},
+    "work": {
+      "Gathering": 1
+    },
     "food": 7,
     "egg": "Unknown Egg",
     "isVariant": false
