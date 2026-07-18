@@ -14,7 +14,7 @@ const PalData = (() => {
   };
 
   async function load() {
-    const resp = await fetch('pals.json');
+    const resp = await fetch('/pals.json');
     pals = await resp.json();
     buildIndices();
     return pals;

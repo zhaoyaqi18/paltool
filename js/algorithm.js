@@ -13,7 +13,7 @@ const Breeder = (() => {
   };
 
   async function load() {
-    const resp = await fetch('breed_data.json');
+    const resp = await fetch('/breed_data.json');
     breedData = await resp.json();
     return true;
   }

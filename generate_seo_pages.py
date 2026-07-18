@@ -32,7 +32,7 @@ def meta_desc(pal):
     bp = pal.get('bp', '?')
     egg = pal.get('egg', 'Unknown Egg')
     element = pal.get('element', '?').title()
-    return f"Learn how to breed {name} in Palworld. Find the fastest breeding path, best parent combos, and step-by-step roadmap. {element} type, BP={bp}, {egg}. 44,551 verified game-accurate recipes."
+    return f"Learn how to breed {name} in Palworld. Find the fastest breeding path, best parent combos, and step-by-step roadmap. {element} type, BP={bp}, {egg}. 44,552 verified game-accurate recipes."
 
 def pal_to_url(pal):
     return f"https://paltool.cc/pals/{pal['id']}/"
@@ -124,7 +124,7 @@ def gen_page(pal):
         <input type="text" id="search-input" class="search-input" placeholder="Search by Pal name or number..." autocomplete="off" value="{name}">
         <button id="search-btn" class="search-btn">🔍 SEARCH</button>
       </div>
-      <p class="hero-hint">300 Pals · 44,551 Recipes · 100% Game Data</p>
+      <p class="hero-hint">301 Pals · 44,552 Recipes · 100% Game Data</p>
     </div>
   </div>
 
@@ -135,7 +135,7 @@ def gen_page(pal):
     {habitat_info}
     {work_skills}
     {breed_info}
-    <p style="margin-top:20px;font-size:12px;color:#64748b;">Data sourced directly from Palworld 1.0 game files. 44,551 verified breeding combinations. Last updated: July 2026.</p>
+    <p style="margin-top:20px;font-size:12px;color:#64748b;">Data sourced directly from Palworld 1.0 game files. 44,552 verified breeding combinations. Last updated: July 2026.</p>
   </div>
 
   <!-- ===== Results ===== -->
@@ -146,7 +146,7 @@ def gen_page(pal):
 
   <!-- ===== Footer ===== -->
   <footer class="footer" style="padding:20px 24px;text-align:center;color:#64748b;font-size:12px;border-top:1px solid rgba(255,255,255,0.06);">
-    <p>Not affiliated with Pocketpair. Fan project. 44,551 game-accurate breeding recipes.</p>
+    <p>Not affiliated with Pocketpair. Fan project. 44,552 game-accurate breeding recipes.</p>
   </footer>
 
   <!-- ===== Scripts ===== -->
@@ -163,11 +163,11 @@ def gen_page(pal):
       }}, 300);
     }});
   </script>
-  <script src="../../js/data.js?v=200"></script>
-  <script src="../../js/algorithm.js?v=200"></script>
-  <script src="../../js/renderer.js?v=200"></script>
-  <script src="../../js/share.js?v=200"></script>
-  <script src="../../js/app.js?v=200"></script>
+  <script src="../../js/data.js?v=202"></script>
+  <script src="../../js/algorithm.js?v=202"></script>
+  <script src="../../js/renderer.js?v=202"></script>
+  <script src="../../js/share.js?v=202"></script>
+  <script src="../../js/app.js?v=202"></script>
 </body>
 </html>'''
     return html
@@ -191,6 +191,12 @@ sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
 sitemap += '  <url><loc>https://paltool.cc/</loc><priority>1.0</priority></url>\n'
 for pal in pals:
     sitemap += f'  <url><loc>https://paltool.cc/pals/{pal["id"]}/</loc><priority>0.8</priority></url>\n'
+# Include guide pages
+guides_dir = os.path.join(OUT_DIR, 'guides')
+if os.path.isdir(guides_dir):
+    for g in sorted(os.listdir(guides_dir)):
+        if os.path.isdir(os.path.join(guides_dir, g)):
+            sitemap += f'  <url><loc>https://paltool.cc/guides/{g}/</loc><priority>0.7</priority></url>\n'
 sitemap += '</urlset>\n'
 
 with open(os.path.join(OUT_DIR, 'sitemap.xml'), 'w') as f:

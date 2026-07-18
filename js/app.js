@@ -24,7 +24,7 @@
     Collection.load();
     // Load passives
     try {
-      const pr = await fetch('passives.json');
+      const pr = await fetch('/passives.json');
       window._passives = await pr.json();
     } catch(e) { window._passives = []; }
     state.loaded = true;

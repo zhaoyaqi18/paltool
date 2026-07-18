@@ -105,7 +105,7 @@ const Share = (() => {
     ctx.fillRect(0, H - 50, W, 50);
     ctx.fillStyle = '#64748b';
     ctx.font = '11px sans-serif';
-    ctx.fillText('44,551 verified breeding recipes · Game-accurate data', 30, H - 20);
+    ctx.fillText('44,552 verified breeding recipes · Updated for Palworld 1.0', 30, H - 20);
     ctx.fillText('Made with PalTool.cc', W - 170, H - 20);
 
     // Download

@@ -4811,6 +4811,23 @@
     "isVariant": false
   },
   {
+    "id": "worldtreedragon",
+    "dex": 204,
+    "name": "Astralym",
+    "bp": 10,
+    "element": "neutral",
+    "isWild": false,
+    "isAlpha": false,
+    "alphaLocation": "",
+    "passives": [],
+    "passiveSource": "breed_only",
+    "image": "img/pals/worldtreedragon.png",
+    "work": {},
+    "food": 9,
+    "egg": "Unknown Egg",
+    "isVariant": false
+  },
+  {
     "id": "yakushimaboss001",
     "dex": 10000,
     "name": "Eye of Cthulhu",
