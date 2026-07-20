@@ -1,5 +1,0 @@
-name = "paltool"
-pages_build_output_dir = "."
-
-[deployment]
-command = "rm -rf .git __pycache__ *.py *.zip *.md PalTool*.md"
