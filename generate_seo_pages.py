@@ -135,7 +135,7 @@ def gen_page(pal):
     </div>
     <div id="route-tabs" class="route-tabs hidden dt-only"></div>
     <div class="topbar-right">
-      <a href="https://paypal.me/zhaoyaqi08" target="_blank" class="coffee-btn" rel="noopener">☕ Buy Me a Coffee</a>
+      <a href="https://ko-fi.com/yugutou" target="_blank" class="coffee-btn" rel="noopener">☕ Support on Ko-fi</a>
     </div>
   </header>
 
