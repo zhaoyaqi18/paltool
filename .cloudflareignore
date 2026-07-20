@@ -1,6 +1,0 @@
-node_modules/
-.git/
-__pycache__/
-*.zip
-*.py
-PalTool*.md
