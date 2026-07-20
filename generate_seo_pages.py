@@ -135,7 +135,7 @@ def gen_page(pal):
     </div>
     <div id="route-tabs" class="route-tabs hidden dt-only"></div>
     <div class="topbar-right">
-      <a href="https://ko-fi.com/yugutou" target="_blank" class="coffee-btn" rel="noopener">☕ Support on Ko-fi</a>
+            <a href="https://ko-fi.com/yugutou" target="_blank" rel="noopener"><img height="36" style="border:0;height:36px" src="https://storage.ko-fi.com/cdn/kofi5.png" alt="Support me on Ko-fi"></a>
     </div>
   </header>
 
