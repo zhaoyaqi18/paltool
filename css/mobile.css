@@ -115,7 +115,7 @@ body {
 /* ===== Hero Section ===== */
 .hero {
   position: relative;
-  min-height: 60vh;
+  min-height: 48vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -255,7 +255,7 @@ body {
   gap: 16px;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 24px 30px;
+  padding: 20px 24px 30px;
 }
 .card {
   background: rgba(255,255,255,0.12);
@@ -271,9 +271,9 @@ body {
   border-color: rgba(255,255,255,0.4);
 }
 .card-icon {
-  width: 56px;
-  height: 56px;
-  margin: 0 auto 12px;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -738,3 +738,43 @@ body {
 .guides-link { text-align: center; margin-top: 16px; }
 .guides-link a { color: var(--accent); font-size: 13px; text-decoration: none; }
 .guides-link a:hover { text-decoration: underline; }
+
+/* ===== Feature Cards with embedded tool recommendations ===== */
+.card-recommend {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--text);
+  padding: 20px 18px 16px;
+  height: 100%;
+}
+.card-recommend h3 { min-height: 38px; font-size: 15px; }
+.card-recommend > p { min-height: 46px; font-size: 12.5px; line-height: 1.5; }
+.card-recommend:hover { text-decoration: none; }
+.rec-box {
+  margin-top: auto;
+  height: 75px;
+  padding: 14px 14px 12px;
+  background: rgba(0,0,0,0.35);
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rec-name { font-size: 16px; font-weight: 800; letter-spacing: -0.3px; white-space: nowrap; }
+.rec-badge {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px;
+  background: rgba(34,197,94,.14);
+  color: #22c55e;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+.rec-desc { font-size: 11.5px; color: var(--text-dim); line-height: 1.4; margin-top: 6px; white-space: nowrap; }
+.rec-cta { display: inline-block; font-size: 13px; font-weight: 700; margin-top: 10px; }
