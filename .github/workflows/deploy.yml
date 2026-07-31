@@ -1,0 +1,22 @@
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches: ["main"]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Clean non-shipped files
+        run: rm -rf __pycache__ *.zip test* 2>/dev/null || true
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - uses: actions/deploy-pages@v4
