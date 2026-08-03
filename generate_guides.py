@@ -122,7 +122,7 @@ TEMPLATE = '''<!DOCTYPE html>
   <title>{title} | PalTool</title>
   <meta name="description" content="{desc}">
   <link rel="canonical" href="https://paltool.cc/guides/{slug}/">
-  <link rel="stylesheet" href="../css/mobile.css?v=201">
+  <link rel="stylesheet" href="../css/mobile.css?v=202">
   <script type="application/ld+json">
   {{
     "@context": "https://schema.org",

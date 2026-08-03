@@ -591,7 +591,7 @@ body {
   /* --- Search --- */
   .search-box { border-radius: 20px; padding: 2px 2px 2px 10px; }
   .search-box input { font-size: 11px; padding: 6px 0; }
-  .search-box button { padding: 6px 12px; font-size: 10px; }
+  .search-box button { padding: 12px 16px; font-size: 12px; min-height: 44px; }
   .search-icon { display: none; }
 
   /* --- Feature Cards (2x2) --- */
@@ -656,6 +656,8 @@ body {
 
   /* Footer */
   .footer { padding: 12px; font-size: 9px; }
+  .footer-contact { margin-top: 8px; }
+  .footer-contact a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 8px; margin: -14px -4px; }
 }
 
 @media (max-width: 480px) {
