@@ -780,3 +780,26 @@ body {
 }
 .rec-desc { font-size: 11.5px; color: var(--text-dim); line-height: 1.4; margin-top: 6px; white-space: nowrap; }
 .rec-cta { display: inline-block; font-size: 13px; font-weight: 700; margin-top: 10px; }
+
+/* ===== Mobile: compress feature cards (赵总 2026-08-03) ===== */
+@media (max-width: 768px) {
+  .card-recommend { padding: 8px 8px 6px; }
+  .card-recommend h3 { min-height: 0; font-size: 9px; margin-bottom: 2px; line-height: 1.25; }
+  .card-recommend > p { min-height: 0; font-size: 8px; line-height: 1.2; }
+  .card-icon { width: 20px; height: 20px; margin-bottom: 3px; }
+  .rec-box { height: auto; min-height: 30px; padding: 4px 6px; }
+  .rec-name { font-size: 10.5px; }
+  .rec-desc { font-size: 8px; margin-top: 1px; line-height: 1.2; }
+}
+
+/* ===== Mobile: 3-section hero layout (赵总 2026-08-03) ===== */
+@media (max-width: 768px) {
+  /* 首页: body 纵向布局, 撑满视口 */
+  body.home { display: flex; flex-direction: column; min-height: 100vh; min-height: 100svh; }
+  /* 标题区占满剩余空间, 搜索框在标题和卡片之间居中 */
+  body.home .hero { flex: 1 0 auto; display: flex; flex-direction: column; }
+  body.home .hero-content { display: flex; flex-direction: column; flex: 1; }
+  body.home .search-section { margin: auto 0; width: 100%; }
+  /* 卡片贴底 */
+  body.home .feature-cards { margin-top: auto; }
+}
